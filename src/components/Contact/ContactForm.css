@@ -1,0 +1,117 @@
+.hmbnnrcnct {
+    width: 80%;
+    margin: auto;
+}
+
+.hmbnnrcnctfrmdttl h3 {
+    color: #42A1DA;
+    font-family: "Linden Hill", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.083vw;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-transform: capitalize;
+}
+
+.hmbnnrcnctfrmdttl p {
+    color: #000;
+    font-family: "Libre Caslon Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:calc(0.9vw + 0.8vh);
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.24px;
+    text-transform: capitalize;
+}
+
+.hmbnnrcnctfrom {
+    background: #42A1DA;
+    padding: 60px 105px;
+}
+
+.hmbnnrcnctforminputfld input,
+.hmbnnrcnctforminputfld textarea {
+    background: #FFF;
+    color: #000;
+    text-align: center;
+    font-size: 1.667vw;
+    font-family: "Linden Hill", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+    padding: 17px;
+    outline: none;
+}
+
+.hmbnnrcnctfrom button {
+    border-radius: 50px;
+    background: #000;
+    color: #FFF;
+    font-family: "Linden Hill", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.042vw;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 1% 6%;
+    border: none;
+    margin: 1% 41%;
+}
+
+@media screen and (max-width: 1024px){
+    .hmbnnrcnctfrom button {
+        font-size: 2.042vw;
+        padding: 1.5% 6%;
+    }
+}
+@media screen and (max-width: 991px){
+    .hmbnnrcnctfrmdttl{
+        text-align: center;
+    }
+    .hmbnnrcnctfrmdttl h3 {
+        font-size: 2.483vw;
+    }
+}
+@media screen and (max-width: 768px){
+    .hmbnnrcnct {
+        width: 90%;
+        margin: auto;
+    }
+    .hmbnnrcnctfrmdttl p {
+        font-size: calc(1.1vw + 1vh);
+    }
+    .hmbnnrcnctfrmdttl h3 {
+        font-size: 3.483vw;
+    }
+    .hmbnnrcnctfrom {
+        background: #42A1DA;
+        padding: 60px 80px;
+    }
+    .hmbnnrcnctforminputfld input, .hmbnnrcnctforminputfld textarea {
+        font-size: 2.767vw;
+    }
+}
+@media screen and (max-width: 575px){
+    .hmbnnrcnctfrom {
+        background: #42A1DA;
+        padding: 60px 25px;
+    }
+    .hmbnnrcnctforminputfld input, .hmbnnrcnctforminputfld textarea {
+        font-size: 3.767vw;
+    }
+    .hmbnnrcnctfrom button {
+        font-size: 3.042vw;
+        padding: 2% 6%;
+    }
+}

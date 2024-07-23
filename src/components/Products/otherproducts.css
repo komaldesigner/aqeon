@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'mm2';
+    src: url('../../fonts/Ligconsolata-Regular.ttf') format('ttf');
+}
+
+.hmbnnr3mproductother2 {
+    width: 90%;
+    margin: 5% auto;
+}
+
+.hmbnnr3mproductother2 h3 {
+    color: #42A1DA;
+    font-family: "Lilita One", sans-serif;
+    font-size: 4.6vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.hmbnnr3mproductsection1other2{
+    display: flex;
+    align-items: end;
+}
+.hmbnnr3mproductsection1other2 h4 {
+    color: #000;
+    font-family: 'mm2';
+    font-size: 2.5vw;
+    font-style: normal;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+.hmbnnr3mproductssectionother2 {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    padding-right: 8%;
+}
+
+.hmbnnr3mproductimgdesgnother {
+    background-color: #42A1DA;
+    padding: 15% 0;
+    width: 85%;
+    height: 365px;
+    margin: auto;
+    display: flex;
+}
+
+.hmbnnr3mproductimgdesgnother img {
+    width: 100%;
+}
+
+.hmbnnr3mproductsectionotrrowother p {
+    color: #000;
+    font-family: "Lilita One", sans-serif;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 7%;
+}
+
+.hmbnnr3mproducttglinetxtother {
+    width: 80%;
+    margin: 10% auto;
+    color: #000;
+    text-align: center;
+    font-family: "Linden Hill", serif;
+    font-size: 1.7vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-transform: capitalize;
+}
+
+.hmbnnr3mproducttglinetxtother span {
+    color: #42A1DA;
+    font-family: "Linden Hill", serif;
+    font-size: 1.7vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-transform: capitalize;
+}
+@media screen and (max-width: 1440px){
+    .hmbnnrtxtproductother h4 span{
+        /* font-size: 56px; */
+       
+    }
+    .hmbnnrtxtproductother h4{
+        /* font-size: 56px; */
+        
+    }
+    .hmbnnrtxtproductother{
+        margin-left: 4%;
+    }
+    .hmbnnr3mproductsectionotrrowother p {
+        font-size: 1.4vw;
+      
+    }
+    .hmbnnrtxtproductother{
+        /* font-size: 106px; */
+    }
+}
+
+@media screen and (max-width: 425px){
+    .hmbnnrtxtproductother h4 span {
+        font-size: 3.4vw !important;
+        letter-spacing: 0.36px;
+    }
+    .hmbnnrtxtproductother h4 {
+        font-size: 3.4vw !important;
+        letter-spacing: 0.36px;
+    }
+    .hmbnnrtxtproductother {
+        font-size: 7.67vw;
+    }
+    .hmbnnr3mproductssectionother2{
+        display: block;
+       padding: 0;
+       width: 75%;
+       
+       
+    }
+    .hmbnnr3mproductimgdesgnother {
+        background-color: #42A1DA;
+        width: 85%;
+        height: auto;
+        padding: 0;
+    }
+      
+
+    .hmbnnr3mproductsection1other2 {
+        display: block;
+    }
+    .hmbnnr3mproductother2 h3 {
+font-size: 9.0vw;
+    }
+    .hmbnnr3mproductsection1other2 h4{
+        font-size: 7.5vw;
+    }
+    .hmbnnr3mproductsectionotrrowother p {
+       
+        font-size: 3.8vw;
+        text-align: center;
+    }
+    .hmbnnr3mproductssection2{
+width: 85%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .hmbnnr3mproductimgdesgnother{
+        height: 250px !important;
+    }
+    .hmbnnr3mproductssectionother2{
+        padding: 0;
+    }
+        .hmbnnrtxtproductother h4 span{
+            font-size: 3.9vw;
+        }
+        .hmbnnrtxtproductother h4{
+            font-size: 3.9vw;
+        }
+}
+@media screen and (max-width: 768px){
+    .hmbnnr3mproductimgdesgnother{
+        height: 190px;
+    }
+
+}

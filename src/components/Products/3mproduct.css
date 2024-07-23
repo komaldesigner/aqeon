@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'mm2';
+    src: url('../../fonts/Ligconsolata-Regular.ttf') format('ttf');
+}
+
+.hmbnnr3mproduct {
+    width: 90%;
+    margin: 5% auto;
+}
+
+.hmbnnr3mproduct h3 {
+    color: #42A1DA;
+    font-family: "Lilita One", sans-serif;
+    font-size: 4.6vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.hmbnnr3mproductsection1 h4 {
+    color: #000;
+    font-family: 'mm2';
+    font-size: 2.5vw;
+    font-style: normal;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+.hmbnnr3mproductssection2 {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+.hmbnnr3mproductimgdesgn {
+    background-color: #42A1DA;
+    padding: 15% 0;
+    width: 85%;
+    margin: auto;
+}
+
+.hmbnnr3mproductimgdesgn img {
+    width: 100%;
+}
+
+.hmbnnr3mproductsectionotrrow p {
+    color: #000;
+    font-family: "Lilita One", sans-serif;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 7%;
+}
+@media screen and (max-width: 1440px){
+    .hmbnnr3mproductsectionotrrow p{
+        font-size: 1.3vw;
+    } 
+    
+}
+
+@media screen and (max-width: 425px){
+    
+.hmbnnrproduct {
+ 
+    width: 65%;
+        padding: 23% 0px 10% 0;
+}
+    .hmbnnr3mproduct{
+        text-align: left;
+    }
+    .hmbnnr3mproduct h3 {
+        font-size: 8.5vw;
+    }
+ 
+    .hmbnnr3mproductsectionotrrow p{
+        font-size: 5.2vw;
+        text-align: center;
+        margin-left: 0%;
+    }
+    .hmbnnr3mproductsection1 h4{
+        font-size: 6.5vw;
+    }
+    .hmbnnr3mproducttglinetxt {
+        font-size: 5.2vw !important;
+        text-align: justify !important;
+    }
+    .hmbnnr3mproducttglinetxt span{
+        font-size: 5.2vw !important;
+    }
+    .hmbnnr3mproductssection2{
+        display: block ;
+
+    }
+    .hmbnnr3mproductimgdesgn {
+   
+        padding: 0% 0;
+        width: 70%;
+       
+}
+}
+@media screen and (max-width: 1040px){
+   
+ 
+}
+
+
+.hmbnnr3mproducttglinetxt {
+    width: 80%;
+    margin: 10% auto;
+    color: #000;
+    text-align: center;
+    font-family: "Linden Hill", serif;
+    font-size: 1.7vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-transform: capitalize;
+}
+
+.hmbnnr3mproducttglinetxt span {
+    color: #42A1DA;
+    font-family: "Linden Hill", serif;
+    font-size: 1.7vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-transform: capitalize;
+}
