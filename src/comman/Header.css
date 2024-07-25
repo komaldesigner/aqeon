@@ -58,12 +58,15 @@
 
 /* styles.css */
 .list-button {
-  display: block; /* Adjust as needed */
-  padding: 0; /* Disable padding */
+  display: block;
+  /* Adjust as needed */
+  padding: 0;
+  /* Disable padding */
 }
 
 .list-item {
-  background-color: #fff; /* Apply background color to list items */
+  background-color: #fff;
+  /* Apply background color to list items */
 }
 
 
@@ -204,18 +207,23 @@
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .logo {
     width: 13%;
+  }
 }
-}
-@media screen and (max-width: 575px){
+
+@media screen and (max-width: 575px) {
   .logo {
     width: 16%;
   }
 }
-@media screen and (max-width: 425px){
+
+@media screen and (max-width: 425px) {
   .logo {
     width: 20%;
   }
 }
+
+
+
