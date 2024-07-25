@@ -1,0 +1,115 @@
+/* src/components/AboutUs.css */
+@font-face {
+  font-family: 'mm1';
+  src: url('../../fonts/LilitaOne-Regular.ttf') format('ttf');
+}
+
+.about-us-container {
+  width: 90%;
+  margin: auto;
+}
+
+.about-section {
+  display: flex;
+  margin-top: 3%;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-column {
+  flex: 1;
+  min-width: 300px;
+  margin: 10px;
+}
+
+.about-us-title {
+  color: #42A1DA;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5vw;
+  line-height: normal;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+  width: 30%;
+}
+
+.about-us-text {
+  color: #000;
+  font-family: "Linden Hill", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: calc(1vw + 1vh);
+  line-height: normal;
+  letter-spacing: -0.32px;
+  text-transform: capitalize;
+  text-align: justify;
+  width: 70%;
+}
+
+.about-us-icons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.icon-item {
+  /* width: 35%; */
+  margin: 10px;
+
+}
+
+.icon-item img {
+  width: 100%;
+}
+
+.icon-item p {
+  font-size: calc(0.8vw + 0.9vh);
+  color: #42A1DA;
+  text-align: center;
+  font-family: "Linden Hill", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.about-us-footer {
+  font-size: calc(1vw + 0.9vh);
+  color: #000;
+  text-align: justify;
+  font-family: "Linden Hill", serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 80%;
+  margin: auto;
+}
+
+/* media query */
+@media screen and (max-width: 375px){
+  .icon-item p {
+    font-size: calc(1.4vw + 1.5vh);
+}
+}
+@media screen and (max-width: 575px) {
+  .icon-item p {
+    font-size: calc(1.1vw + 1.2vh);
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .about-section {
+    display: grid;
+    text-align: center;
+  }
+
+  .about-us-title {
+    width: auto;
+  }
+
+  .about-us-text,
+  .about-us-footer {
+    width: auto;
+    font-size: calc(1.1vw + 1.1vh);
+  }
+
+}

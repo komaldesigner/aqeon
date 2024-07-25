@@ -1,0 +1,150 @@
+.footer {
+    background: #000;
+    padding:5.5% 5% 5.5% 5%;
+}
+
+.fttrsec1 {
+    margin-bottom: 5%;
+}
+
+.fttrsec1 h3 {
+    color: #FFF;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.604vw;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.64px;
+    text-transform: capitalize;
+}
+
+.fttrsec1 p {
+    color: #FFF;
+    font-family: "Linden Hill", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.875vw;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    text-transform: capitalize;
+
+}
+
+.fttrsec2prt2 {
+    display: flex;
+
+}
+
+.fttrsec2prt2lftsde {
+    margin-right: 18%;
+    width: 65%;
+}
+
+.fttcontact {
+    margin-bottom: 3%;
+}
+
+.fttcontact span,
+.fttrsec2prt2lftsde address,
+.fttrsec2prt2lftsde p,
+.fttrsec2prt2rgtsde h3 {
+    color: #FFF;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.563vw;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    text-transform: capitalize;
+}
+
+.fttrquicklink {
+    display: flex;
+    align-items: center;
+    margin-top: 2.3%;
+}
+
+.fttrlink1 a {
+    text-decoration: none;
+    color: #FFF !important;
+    font-family: "Linden Hill", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.563vw;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    text-transform: capitalize;
+}
+
+.fttrfanivalyear {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:1% 3% 1% 5%;
+}
+
+.fttrsec2prt2rgtsde {
+    width: 85%;
+}
+
+.fttrlink1 {
+    margin-right: 5%;
+}
+
+.fttrcpyrgt, .compnylink{
+    font-size: 1.302vw;
+    font-family: "Linden Hill", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    text-transform: capitalize;
+    color: #000;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .fttcontact span, .fttrsec2prt2lftsde address, .fttrsec2prt2lftsde p, .fttrsec2prt2rgtsde h3 {
+        font-size: 1.863vw;
+    }
+    .fttrlink1 a {
+        font-size: 1.689vw;
+    }
+}
+@media screen and (max-width: 768px){
+.fttrcpyrgt, .compnylink {
+    font-size: 2.302vw;
+}
+}
+@media screen and (max-width: 600px) {
+    .fttrsec1 h3 {
+        font-size: 2.904vw;
+    }
+    .fttrlink1 a, .fttrsec1 p, .fttcontact span, .fttrsec2prt2lftsde address, .fttrsec2prt2lftsde p, .fttrsec2prt2rgtsde h3 {
+        font-size: 4.0vw;
+    }
+    .fttrsec2prt2 {
+        display: grid;
+    }
+}
+@media screen and (max-width: 375px){
+    .fttrsec1 h3 {
+        font-size: 3.4vw;
+    }
+    .fttrlink1 a, .fttrsec1 p, .fttcontact span, .fttrsec2prt2lftsde address, .fttrsec2prt2lftsde p, .fttrsec2prt2rgtsde h3 {
+        font-size: 3.5vw;
+    }
+    .fttrsec2prt2lftsde {
+        width: auto;
+    }
+    .fttrsec2prt2rgtsde {
+        width: 100%;
+    }
+}

@@ -1,0 +1,96 @@
+.hmbnnrctctgtintuch {
+    margin: 3% 2%;
+}
+
+.hmbnnrctctgtintuch .row {
+    align-items: center;
+}
+
+.hmbnnrctgttchtxtlftmobile {
+    display: none;
+}
+
+.hmbnnrctgttchtxtlft h3,
+.hmbnnrctgttchtxtlftmobile h3 {
+    background-image: url(../../assets/contact/textimg1.svg);
+    background-attachment: fixed;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: right;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6.667vw;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.28px;
+    text-transform: uppercase;
+}
+
+.hmbnnrctgttchtxtlft h4,
+.hmbnnrctgttchtxtlftmobile h4 {
+    background-image: url(../../assets/contact/textimg2.svg);
+    background-attachment: fixed;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: right;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6.667vw;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.28px;
+    text-transform: uppercase;
+}
+
+.hmbnnrctgttchtxtlft p,
+.hmbnnrctgttchtxtlftmobile p {
+    color: #42A1DA;
+    font-size: 1.51vw;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
+    text-transform: capitalize;
+    text-align: right;
+}
+
+.hmbnnrctgttchtxtrgt p {
+    color: #000;
+    text-align: center;
+    font-family: "Linden Hill", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:calc(1.1vw + 1.1vh);
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    text-transform: capitalize;
+    margin: 0 6%;
+}
+
+@media screen and (max-width: 991px) {
+    .hmbnnrctgttchtxtlft {
+        display: none;
+    }
+
+    .hmbnnrctgttchtxtlftmobile {
+        display: block;
+        text-align: center;
+    }
+
+    .hmbnnrctgttchtxtlftmobile h3 {
+        display: ruby;
+
+    }
+
+    .hmbnnrctgttchtxtlftmobile p {
+        text-align: center;
+    }
+    .hmbnnrctgttchtxtlftmobile p {
+        font-size: calc(1.1vw + 1.1vh);
+    }
+}

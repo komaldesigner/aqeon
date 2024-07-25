@@ -1,0 +1,168 @@
+.hmbnnr1,
+.hmbnnr1 video {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 23%;
+    margin: 0 6%;
+    color: #42A1DA;
+    font-size: 4vw;
+    text-transform: uppercase;
+    width: 75%;
+    z-index: 1;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.overlay-text h4 {
+    color: #42A1DA;
+    font-size: 4vw;
+    text-transform: uppercase;
+    z-index: 1;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.overlay-text span {
+    color: #FFF;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+}
+
+/* Contact - Banner - Text  */
+.contact-text {
+    position: absolute;
+    top: 0;
+    color: #FFF;
+    font-size: 2.5vw;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    text-transform: capitalize;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 20% 45% 0 5%;
+}
+
+.contact-text span {
+    color: #000;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contact-text h4 {
+    text-transform: capitalize;
+    font-family: "Lilita One", sans-serif;
+    color: #FFF;
+    font-size: 2.5vw;
+}
+
+/* product - Banner - Text */
+.hmbnnrproduct {
+    background-color: #42A1DA;
+    width: 57%;
+    margin-left: auto;
+    position: relative;
+    padding: 15% 0 5% 0;
+}
+
+.hmbnnrproduct .hmbnnrtxtproduct {
+    color: #000;
+    font-family: "Lilita One", sans-serif;
+    font-size: 7.8vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.7;
+    letter-spacing: -1.5px;
+    text-transform: uppercase;
+    padding: 0 0 0 13%;
+}
+
+.hmbnnrproduct .hmbnnrtxtproduct span,
+.hmbnnrproduct .hmbnnrtxtproduct span p {
+    color: #000;
+    font-family: "Lilita One", sans-serif;
+    font-size: 4.6vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.5px;
+    text-transform: uppercase;
+    margin: 0 0 0 11%;
+}
+
+.hmbnnrproduct .hmbnnrtxtproduct h4 {
+    color: #FFF;
+    font-family: "Lilita One", sans-serif;
+    font-size: 4.6vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.9px;
+    text-transform: uppercase;
+    margin: 0 0 0 11%;
+}
+
+/* product2 css start */
+.hmbnnrproductother {
+    background-image: url(../../assets/banner/bannner.jpg);
+    position: relative;
+    padding: 15% 0 15% 0;
+    background-size: 100% 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+
+/* background-color: #42A1DA;
+    width: 57%;
+    margin-right: auto;
+    position: relative;
+    padding: 15% 0 5% 0; */
+
+.hmbnnrtxtproductother {
+    color: #000;
+    font-family: "Lilita One", sans-serif;
+    font-size: 6.67vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.28px;
+    text-transform: uppercase;
+    margin-left: 5%;
+}
+
+.hmbnnrtxtproductother h4 {
+    color: #000;
+    font-family: "Lilita One", sans-serif;
+    font-size: 3.333vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.64px;
+    text-transform: uppercase;
+}
+
+.hmbnnrtxtproductother h4 span {
+    color: #FFF;
+    font-family: "Lilita One", sans-serif;
+    font-size: 3.333vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.64px;
+    text-transform: uppercase;
+
+}

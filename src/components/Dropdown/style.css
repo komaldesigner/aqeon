@@ -1,0 +1,36 @@
+/* Styles for the dropdown toggle (Products) */
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Styles for the dropdown toggle text */
+  .list-item-text {
+    flex: 1;
+  }
+  
+  /* Styles for the dropdown toggle icon (expand/collapse) */
+  .expand-icon {
+    color: #666;
+  }
+  
+  /* Styles for the dropdown content */
+  .dropdown-content {
+    padding: 10px 0;
+  }
+  
+  /* Styles for the dropdown content items */
+  .dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* Show dropdown content when dropdown is open */
+  .open .dropdown-content {
+    display: block;
+  }
+  
