@@ -174,54 +174,57 @@ const Header = () => {
 
   return (
     <header className="header">
-      <div className="hdrdesktop">
-        <div className="logo"><img src={logo} alt="Logo" /></div>
-        <nav className="navbar">
-          {navItems.map((navItem, index) => (
-            <li key={index}>
-              {navItem.dropdown ? (
-                <>
-                  <span
-                    onClick={handleMenuClick}
-                    aria-controls={open ? 'dropdown-menu' : undefined}
-                    aria-haspopup="true"
-                    aria-expanded={open ? 'true' : undefined}
-                    className="active"
-                    style={{ cursor: 'pointer' }}
-                  >
-                    {navItem.label} <ArrowDropDownIcon />
-                  </span>
+      <div id="hdrboth">
+        <div className="hdrdesktop">
+          <div className="logo"><img src={logo} alt="Logo" /></div>
+          <nav className="navbar">
+            {navItems.map((navItem, index) => (
+              <li key={index}>
+                {navItem.dropdown ? (
+                  <>
+                    <span
+                      onClick={handleMenuClick}
+                      aria-controls={open ? 'dropdown-menu' : undefined}
+                      aria-haspopup="true"
+                      aria-expanded={open ? 'true' : undefined}
+                      className="active"
+                      style={{ cursor: 'pointer' }}
+                    >
+                      {navItem.label} <ArrowDropDownIcon />
+                    </span>
 
-                  <Menu
-                    id="dropdown-menu"
-                    anchorEl={anchorEl}
-                    open={open}
-                    onClose={handleMenuClose}
-                    MenuListProps={{
-                      'aria-labelledby': 'basic-button',
-                    }}
-                  >
-                    {navItem.menuItems.map((menuItem, menuIndex) => (
-                      <MenuItem key={menuIndex} onClick={handleMenuClose}>
-                        <Link to={menuItem.navlink} className='active-menu'>
-                          {menuItem.label}
-                        </Link>
-                      </MenuItem>
-                    ))}
-                  </Menu>
-                </>
-              ) : (
-                <Link to={navItem.navlink} className='active' key={index} onClick={openclick}>
-                  {navItem.label}
-                </Link>
-              )}
-            </li>
-          ))}
-        </nav>
-        <div className="contact-us">
-          <Link to="/contact">Contact Us</Link>
+                    <Menu
+                      id="dropdown-menu"
+                      anchorEl={anchorEl}
+                      open={open}
+                      onClose={handleMenuClose}
+                      MenuListProps={{
+                        'aria-labelledby': 'basic-button',
+                      }}
+                    >
+                      {navItem.menuItems.map((menuItem, menuIndex) => (
+                        <MenuItem key={menuIndex} onClick={handleMenuClose}>
+                          <Link to={menuItem.navlink} className='active-menu'>
+                            {menuItem.label}
+                          </Link>
+                        </MenuItem>
+                      ))}
+                    </Menu>
+                  </>
+                ) : (
+                  <Link to={navItem.navlink} className='active' key={index} onClick={openclick}>
+                    {navItem.label}
+                  </Link>
+                )}
+              </li>
+            ))}
+          </nav>
+          <div className="contact-us">
+            <Link to="/contact">Contact Us</Link>
+          </div>
         </div>
       </div>
+      
 
       <div className="hdrmobile">
         <div className="logo"><img src={logo} alt="Logo" /></div>

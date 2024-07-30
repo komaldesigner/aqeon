@@ -6,19 +6,21 @@
 /* src/Header.css */
 .header {
   position: relative;
-  width: 90%;
+  /* width: 90%; */
   margin: auto;
 
 }
 
+
+
 .hdrdesktop {
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
-  width: 90%;
+  width: 100%;
   position: fixed;
   z-index: 2;
-  margin: auto;
+  /* background-color: #efe6e640; */
+  padding: 2% 5%;
 }
 
 .logo {
@@ -110,6 +112,19 @@
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 1440px){
+  .hdrdesktop {
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    background-color: #efe6e640;
+    padding: 2% 5%;
+  }
+  #hdrboth{
+    background-color: #fff;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .hdrdesktop {
     display: none;
@@ -127,6 +142,7 @@
     width: 90%;
     position: relative;
     z-index: 2;
+    padding: 1% 5%;
   }
 
   .burgerIcon {

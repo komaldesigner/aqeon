@@ -153,11 +153,11 @@ export const productsData = [
                         imgSrc: prom13,
                         productName: '3M IAS140S EcoSip'
                     },
-                    {
-                        id: 14,
-                        imgSrc: prom14,
-                        productName: '3M Smart Drinking Water Purifier'
-                    },
+                    // {
+                    //     id: 14,
+                    //     imgSrc: prom14,
+                    //     productName: '3M Smart Drinking Water Purifier'
+                    // },
                     {
                         id: 15,
                         imgSrc: prom15,
@@ -277,12 +277,12 @@ export const productsData = [
                     {
                         id: 31,
                         imgSrc: prom31,
-                        productName: 'ACO Hexaline Drain Channel'
+                        productName: 'ACO Hexaline Drain Channel (1.5 ton load)'
                     },
                     {
                         id: 32,
                         imgSrc: prom32,
-                        productName: 'ACO Xtradrain Drain Channel'
+                        productName: 'ACO Xtradrain Drain Channel (12.5 Ton Load)'
                     }, {
                         id: 33,
                         imgSrc: prom33,
