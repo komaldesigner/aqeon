@@ -11,7 +11,7 @@ const Brandpartlogo = () => {
         <div class="hmbnnrbrandprtlogo">
             <img src={brandlogo1} /><br />
             <p>
-            Bradford White is a leading manufacturer of high-quality water heaters, space heating, and storage products, dedicated to serving professional contractors and their customers worldwide. With a focus on innovation and engineering excellence, Bradford White has earned the trust of millions through its commitment to quality and performance. The company prides itself on customer satisfaction, striving to deliver products that are "Built to be the Best®." As part of the Bradford White family of companies, they continue to uphold their promise to provide reliable and efficient solutions for all water and space heating needs.
+            <span>Bradford White</span> is a leading manufacturer of high-quality water heaters, space heating, and storage products, dedicated to serving professional contractors and their customers worldwide. With a focus on innovation and engineering excellence, Bradford White has earned the trust of millions through its commitment to quality and performance. The company prides itself on customer satisfaction, striving to deliver products that are "Built to be the Best®." As part of the Bradford White family of companies, they continue to uphold their promise to provide reliable and efficient solutions for all water and space heating needs.
             </p>
         </div>
         <div class="hmbnnrbrandprtlogo">
