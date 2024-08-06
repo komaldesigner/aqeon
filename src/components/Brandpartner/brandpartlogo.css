@@ -1,0 +1,21 @@
+.hmbnnrbrandprtlogo img{
+   width:28%;
+}
+
+.hmbnnrbrandprtlogo{
+    width: 85%;
+    margin:10% auto;
+}
+
+.hmbnnrbrandprtlogo p{
+    color: #000;
+    font-family: "Linden Hill", serif;
+    font-size: calc(1vw + 1vh);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-transform: capitalize;
+    margin-top: 2%;
+    text-align: justify;
+}

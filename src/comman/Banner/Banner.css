@@ -161,3 +161,15 @@
     text-transform: uppercase;
 
 }
+
+/* Brandpartners start */
+.hmbnnrbrandpartner {
+    background-image: url(../../assets/banner/brand.svg);
+    position: relative;
+    padding: 40% 0 0 0;
+    background-size: 100% 100%;
+    width: 85%;
+    background-repeat: no-repeat;
+    margin: auto;
+
+}

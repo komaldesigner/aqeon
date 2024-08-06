@@ -44,6 +44,12 @@ const Banner = ({ index, startText, centerText, endText, isvalue, isanothervalue
                     <>
                     </>
                 );
+            case 'brandpartners':
+                return (
+                    <>
+                    </>
+                 );
+
             default:
                 return (
                     <div>
@@ -66,6 +72,9 @@ const Banner = ({ index, startText, centerText, endText, isvalue, isanothervalue
             case 'products2':
                 return 'hmbnnrtxtproductother';
 
+            case 'brandpartners':
+                return 'hmbnnrtxtbrandpartners';
+
             default:
                 return '';
         }
@@ -86,10 +95,17 @@ const Banner = ({ index, startText, centerText, endText, isvalue, isanothervalue
             case 'products2':
                 return 'hmbnnrproductother';
 
+            case 'brandpartners':
+                return 'hmbnnrbrandpartner';
+
             default:
                 return '';
         }
     };
+
+
+
+
 
     const firsthalf = centerText.slice(0, 14);
     const secondhalf = centerText.slice(15, 30);
@@ -102,7 +118,7 @@ const Banner = ({ index, startText, centerText, endText, isvalue, isanothervalue
             {renderItem()}
             <div className={bannerclass()}>
                 {startText} {isvalue === true ? <span>{centerText}</span> : <span>{firsthalf}<p>{secondhalf}</p></span>} {
-                    isanothervalue === true ? <h4>{endText}</h4> : <h4>{endfisrt}<span>{endsend}</span>{endthrd}</h4>
+                    isanothervalue === true ? <h4>{endText}</h4> : <h4>{endfisrt}<span style={index == 'brandpartners'?{display:"none"}:{} }>{endsend}</span>{endthrd}</h4> 
                 }
             </div>
         </div>
