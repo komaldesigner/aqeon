@@ -19,3 +19,16 @@
     margin-top: 2%;
     text-align: justify;
 }
+
+@media screen and (max-width: 575px){
+    .hmbnnrbrandtgline {
+        font-size: 2.1vw;
+        width: 79%;
+    }
+    .hmbnnrbrandprtlogo img {
+        width: 35%;
+    }
+    .hmbnnrbrandprtlogo p {
+        font-size: calc(1.1vw + 1.1vh);
+    }
+}
