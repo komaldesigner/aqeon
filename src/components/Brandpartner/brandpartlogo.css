@@ -7,8 +7,14 @@
     margin:10% auto;
 }
 
+.hmbnnrbrandprtlogo span{
+    color: #42A1DA;
+}
 .hmbnnrbrandprtlogo p{
     color: #000;
+}
+
+.hmbnnrbrandprtlogo p, .hmbnnrbrandprtlogo span{
     font-family: "Linden Hill", serif;
     font-size: calc(1vw + 1vh);
     font-style: normal;
@@ -22,7 +28,7 @@
 
 @media screen and (max-width: 575px){
     .hmbnnrbrandtgline {
-        font-size: 2.1vw;
+        font-size: 2.3vw;
         width: 79%;
     }
     .hmbnnrbrandprtlogo img {
