@@ -1,0 +1,66 @@
+.hmbnnrabout1{
+    width:87%;
+    margin: auto;
+}
+.hmbnnraboutustxtinnrpage{
+    color: #42A1DA;
+    font-family: "Linden Hill", serif;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-transform: capitalize;
+    margin-bottom: 5%;
+}
+.hmbnnraboutustxtinnrpage span{
+    color: #000;
+    font-family: "Linden Hill", serif;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-transform: capitalize;
+}
+
+.hmbnnraboutustxtinnrpage2 h3{
+    color: #000;
+    font-family: "Linden Hill", serif;
+    font-size: 1.6vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.hmbnnraboutustxtinnrpage2 p{
+    color: #42A1DA;
+    font-family: "Linden Hill", serif;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-transform: capitalize;
+    margin-bottom: 5%;
+}
+.hmbnnrabout1 h4{
+    color: #42A1DA;
+    font-family: "Linden Hill", serif;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 575px) {
+
+    .hmbnnraboutustxtinnrpage, .hmbnnrabout1 h4, .hmbnnraboutustxtinnrpage2 p, .hmbnnraboutustxtinnrpage span{
+        font-size: 2.8vw;
+    }
+    .hmbnnraboutustxtinnrpage2 h3{
+        font-size: 2.5vw;
+    }
+}

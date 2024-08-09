@@ -173,3 +173,12 @@
     margin: auto;
 
 }
+
+/* About us start */
+.hmbnnraboutus{
+    background-image: url(../../assets/banner/aboutus.svg);
+    position: relative;
+    padding: 40% 0 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
