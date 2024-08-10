@@ -65,7 +65,7 @@ export const productsData = [
                     {
                         id: 5,
                         imgSrc: pro5,
-                        productName: 'IAS1905'
+                        productName: 'IAS190S'
                     }
                 ]
             },
@@ -95,7 +95,7 @@ export const productsData = [
                     {
                         id: 5,
                         imgSrc: pro5,
-                        productName: 'IAS1905'
+                        productName: 'IAS190S'
                     }
                 ]
             }
@@ -120,17 +120,17 @@ export const productsData = [
                     {
                         id: 8,
                         imgSrc: prom8,
-                        productName: '3M IAS141T'
+                        productName: '3M IAS802C'
                     },
                     {
                         id: 9,
                         imgSrc: prom9,
-                        productName: '3M IAS802C'
+                        productName: '3M IAS102T'
                     },
                     {
                         id: 10,
                         imgSrc: prom10,
-                        productName: '3M IAS102T'
+                        productName: '3M IAS141T'
                     },
                     {
                         id: 11,
