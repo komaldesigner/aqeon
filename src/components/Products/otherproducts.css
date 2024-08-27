@@ -41,7 +41,7 @@
 }
 
 .hmbnnr3mproductimgdesgnother {
-    background-color: #42A1DA;
+    background-color: #dbdbdb;
     padding: 15% 0;
     width: 85%;
     height: 365px;
@@ -55,13 +55,14 @@
 
 .hmbnnr3mproductsectionotrrowother p {
     color: #000;
-    font-family: "Lilita One", sans-serif;
+    font-family: "Inconsolata", monospace;
     font-size: 1vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: capitalize;
     margin-left: 7%;
+    text-align: center;
 }
 
 .hmbnnr3mproducttglinetxtother {

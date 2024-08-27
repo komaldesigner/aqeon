@@ -55,6 +55,12 @@ const Banner = ({ index, startText, centerText, endText, isvalue, isanothervalue
                     <>
                     </>
                 );
+            case 'alltotalproducts':
+                return (
+                    <>
+                    </>
+                );
+                
 
             default:
                 return (
@@ -83,6 +89,9 @@ const Banner = ({ index, startText, centerText, endText, isvalue, isanothervalue
 
             case 'aboutus':
                 return 'hmbnnrtxtaboutus';
+            
+            case 'alltotalproducts':
+                return 'hmbnnrtxtproduct';
 
             default:
                 return '';
@@ -110,6 +119,9 @@ const Banner = ({ index, startText, centerText, endText, isvalue, isanothervalue
             case 'aboutus':
                 return 'hmbnnraboutus';
 
+            case 'alltotalproducts':
+                return 'hmbnnrproduct';
+                
             default:
                 return '';
         }

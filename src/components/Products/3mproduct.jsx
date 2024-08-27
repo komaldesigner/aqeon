@@ -1,9 +1,11 @@
 import React from "react";
 import './3mproduct.css';
 import { productsData } from '../../Helper/index.js';
+import { useNavigate } from 'react-router-dom';
 
 
 const ThreemProduct = () => {
+    const navigate = useNavigate();
 
     const filterProducts = (prodCat, subCat) => {
         const category = productsData.find(cat => cat.prodCat === prodCat);
@@ -21,6 +23,13 @@ const ThreemProduct = () => {
     
     // console.log('products', utlitywaterproduct);
 
+    const handleImageClick = (utlitywaterproduct) => {
+        let products = utlitywaterproduct
+        console.log(products);
+        navigate(`/Alltotalproducts/${utlitywaterproduct.id}`, { state: { products } });
+        window.scrollTo(0, 0);
+    };
+
     return (
         <>
             <div className="hmbnnr3mproduct">
@@ -30,7 +39,8 @@ const ThreemProduct = () => {
                     <div className="hmbnnr3mproductssection2">
                         {utlitywaterproduct.map((item, index) => (
                         <div key={index} className="hmbnnr3mproductsectionotrrow">
-                            <div className="hmbnnr3mproductimgdesgn">
+                            <div className="hmbnnr3mproductimgdesgn"    onClick={() => handleImageClick(item)}
+            style={{ cursor: 'pointer' }}>
                                 <img src={item.imgSrc} alt={item.productName}  />
                             </div>
                             <p>{item.productName}</p>
@@ -43,7 +53,8 @@ const ThreemProduct = () => {
                     <div className="hmbnnr3mproductssection2">
                         {drinkingWater.map((item, index) => (
                         <div key={index} className="hmbnnr3mproductsectionotrrow">
-                            <div className="hmbnnr3mproductimgdesgn">
+                            <div className="hmbnnr3mproductimgdesgn" onClick={() => handleImageClick(item)}
+            style={{ cursor: 'pointer' }}>
                                 <img src={item.imgSrc} alt={item.productName}  />
                             </div>
                             <p>{item.productName}</p>
@@ -56,7 +67,8 @@ const ThreemProduct = () => {
                     <div className="hmbnnr3mproductssection2">
                         {waterSoftner.map((item, index) => (
                         <div key={index} className="hmbnnr3mproductsectionotrrow">
-                            <div className="hmbnnr3mproductimgdesgn">
+                            <div className="hmbnnr3mproductimgdesgn" onClick={() => handleImageClick(item)}
+            style={{ cursor: 'pointer' }}>
                                 <img src={item.imgSrc} alt={item.productName}  />
                             </div>
                             <p>{item.productName}</p>

@@ -1,9 +1,10 @@
 import React from "react";
 import './otherproducts.css';
 import { productsData } from '../../Helper/index.js';
-
+import { useNavigate } from 'react-router-dom';
 
 const ThreemProduct = () => {
+    const navigate = useNavigate();
 
     const filterProducts = (prodCat, subCat) => {
         const category = productsData.find(cat => cat.prodCat === prodCat);
@@ -22,6 +23,14 @@ const ThreemProduct = () => {
     const otherdrainchannel = filterProducts('ProductOther', 'otherDrainchannel');
     const othermanhole = filterProducts('ProductOther', 'otherManholecovers');
 
+    const handleImageClick = (otherhotwater) => {
+        let products = otherhotwater
+        console.log(otherhotwater);
+        navigate(`/Alltotalproducts/${otherhotwater.id}`, { state: { products } });
+        window.scrollTo(0, 0);
+     
+    };
+
     // console.log('products', utlitywaterproduct);
 
     return (
@@ -34,7 +43,8 @@ const ThreemProduct = () => {
                         <div className="hmbnnr3mproductssectionother2">
                             {otherutlitywater.map((item, index) => (
                                 <div key={index} className="hmbnnr3mproductsectionotrrowother">
-                                    <div className="hmbnnr3mproductimgdesgnother">
+                                    <div className="hmbnnr3mproductimgdesgnother"  onClick={() => handleImageClick(item)}
+            style={{ cursor: 'pointer' }}>
                                         <img src={item.imgSrc} alt={item.productName} />
                                     </div>
                                     <p>{item.productName}</p>
@@ -47,7 +57,8 @@ const ThreemProduct = () => {
                         <div className="hmbnnr3mproductssectionother2">
                             {otherWatersftnr.map((item, index) => (
                                 <div key={index} className="hmbnnr3mproductsectionotrrowother">
-                                    <div className="hmbnnr3mproductimgdesgnother">
+                                    <div className="hmbnnr3mproductimgdesgnother"  onClick={() => handleImageClick(item)}
+            style={{ cursor: 'pointer' }}>
                                         <img src={item.imgSrc} alt={item.productName} />
                                     </div>
                                     <p>{item.productName}</p>
@@ -64,7 +75,8 @@ const ThreemProduct = () => {
                         <div className="hmbnnr3mproductssectionother2">
                             {otherhotwater.map((item, index) => (
                                 <div key={index} className="hmbnnr3mproductsectionotrrowother">
-                                    <div className="hmbnnr3mproductimgdesgnother">
+                                    <div className="hmbnnr3mproductimgdesgnother"  onClick={() => handleImageClick(item)}
+            style={{ cursor: 'pointer' }}>
                                         <img src={item.imgSrc} alt={item.productName} />
                                     </div>
                                     <p>{item.productName}</p>
@@ -77,7 +89,8 @@ const ThreemProduct = () => {
                         <div className="hmbnnr3mproductssectionother2">
                             {otherpumps.map((item, index) => (
                                 <div key={index} className="hmbnnr3mproductsectionotrrowother">
-                                    <div className="hmbnnr3mproductimgdesgnother">
+                                    <div className="hmbnnr3mproductimgdesgnother"  onClick={() => handleImageClick(item)}
+            style={{ cursor: 'pointer' }}>
                                         <img src={item.imgSrc} alt={item.productName} />
                                     </div>
                                     <p>{item.productName}</p>
@@ -92,7 +105,8 @@ const ThreemProduct = () => {
                     <div className="hmbnnr3mproductssection2">
                         {otherdrainchannel.map((item, index) => (
                             <div key={index} className="hmbnnr3mproductsectionotrrowother">
-                                <div className="hmbnnr3mproductimgdesgnother">
+                                <div className="hmbnnr3mproductimgdesgnother"  onClick={() => handleImageClick(item)}
+            style={{ cursor: 'pointer' }}>
                                     <img src={item.imgSrc} alt={item.productName} />
                                 </div>
                                 <p>{item.productName}</p>
@@ -103,10 +117,11 @@ const ThreemProduct = () => {
                 
                 <div className="hmbnnr3mproductsection1">
                     <h4>Manhole Covers</h4>
-                    <div className="hmbnnr3mproductssection2">
+                    <div className="hmbnnr3mproductssection2" >
                         {othermanhole.map((item, index) => (
                             <div key={index} className="hmbnnr3mproductsectionotrrowother">
-                                <div className="hmbnnr3mproductimgdesgnother">
+                                <div className="hmbnnr3mproductimgdesgnother"  onClick={() => handleImageClick(item)}
+            style={{ cursor: 'pointer' }}>
                                     <img src={item.imgSrc} alt={item.productName} />
                                 </div>
                                 <p>{item.productName}</p>
