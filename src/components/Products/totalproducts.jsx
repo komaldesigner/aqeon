@@ -50,7 +50,7 @@ const Alltotalproducts = () => {
                                     }
                                 </ul>
                                 <div className="hmbnnrtotalproductsrighttxt">
-                                    <button>Enquire Now</button>
+                                    <button onClick={() => window.location.href = "contact"}>Enquire Now</button>
                                 </div>
                             </div>
                         </div>

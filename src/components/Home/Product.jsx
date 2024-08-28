@@ -65,7 +65,7 @@ console.log('products', products);
                 </Slider>
             </div>
             <div className='hmbnnrprodct2btn'>
-                <button onClick={() => window.location.href = "#"}>View More</button>
+                <button onClick={() => window.location.href = "products"}>View More</button>
             </div>
         </div>
     );
