@@ -251,6 +251,18 @@
     .hmbnnrtxtproductother h4 {
         font-size: 3.9vw;
     }
+    .hmbnnrtotalproductsrighttxt button {
+        font-size: 1.8vw;
+    }
+    .hmbnnr1productdetailtext ul li {
+        font-size: 1.9vw;
+    }
+    .hmbnnralltotalprodocytsec2tabledatdesgm table #tablehdingrow {
+        font-size: 2vw;
+    }
+    .hmbnnralltotalprodocytsec2tabledatdesgm table tr td {
+        font-size: 1.9vw;
+    }
 }
 
 @media screen and (max-width: 768px) {
