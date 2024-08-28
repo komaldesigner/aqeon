@@ -1,9 +1,43 @@
-import React from 'react';
+import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 import './ContactForm.css';
 
 const ContactForm = () => {
-
-
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        mobile: '',
+        message: ''
+      });
+      const handleChange = (e) => {
+        setFormData({
+          ...formData,
+          [e.target.name]: e.target.value
+        });
+      };
+      const handleSubmit = (e) => {
+        e.preventDefault();
+    
+        emailjs.send(
+          'developpitamaas@gmail.com', // Replace with your service ID
+          'YOUR_TEMPLATE_ID', // Replace with your template ID
+          formData,
+          'YOUR_USER_ID' // Replace with your user ID
+        ).then((response) => {
+          console.log('SUCCESS!', response.status, response.text);
+          alert('Message sent successfully!');
+        }).catch((err) => {
+          console.log('FAILED...', err);
+          alert('Failed to send the message.');
+        });
+    
+        setFormData({
+          name: '',
+          email: '',
+          mobile: '',
+          message: ''
+        });
+      };
 
     return (
         <>
@@ -29,16 +63,16 @@ const ContactForm = () => {
                     </div>
                 </div>
                 <div className='hmbnnrcnctfrom'>
-                    <form method="POST" className='hmbnnrcnctforminputfld'>
-                        <input type="text" name="name" placeholder='Full Name' />
+                    <form method="POST" className='hmbnnrcnctforminputfld' onSubmit={handleSubmit}>
+                        <input type="text" name="name" value={formData.name} onChange={handleChange} placeholder='Full Name' />
                         <br />
-                        <input type='email' name='email' placeholder='Email' />
+                        <input type='email' name='email' value={formData.email} onChange={handleChange} placeholder='Email' />
                         <br />
-                        <input type='mobile' name='mobile' placeholder='Contact No.' />
+                        <input type='mobile' name='mobile' placeholder='Contact No.' value={formData.mobile} onChange={handleChange} />
                         <br />
-                        <textarea name="message" placeholder='Message'></textarea>
+                        <textarea name="message" placeholder='Message' value={formData.message} onChange={handleChange}></textarea>
                         <br />
-                        <button type='button'>SUBMIT</button>
+                        <button type='submit'>SUBMIT</button>
                     </form>
                 </div>
 

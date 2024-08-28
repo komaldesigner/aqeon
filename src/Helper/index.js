@@ -620,12 +620,12 @@ export const productsData = [
                     {
                         id: 26,
                         imgSrc: prom26,
-                        productName: 'EBARA CDX 90/10'
+                        productName: 'EBARA Hydropneumatic System'
                     },
                     {
                         id: 27,
                         imgSrc: prom27,
-                        productName: 'EBARA Hydropneumatic System',
+                        productName: 'EBARA CDX 90/10',
                         overview : {
                             oviewDes: '', // This can be left empty or used for a brief introduction if needed.
                             oviwdespont: [
