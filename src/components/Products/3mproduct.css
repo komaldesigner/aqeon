@@ -2,6 +2,10 @@
     font-family: 'mm2';
     src: url('../../fonts/Ligconsolata-Regular.ttf') format('ttf');
 }
+@font-face {
+    font-family: 'tommy';
+    src: url('../../fonts/tommy.otf') format('otf');
+}
 
 .hmbnnr3mproduct {
     width: 90%;
@@ -20,7 +24,7 @@
 
 .hmbnnr3mproductsection1 h4 {
     color: #000;
-    font-family: "Inconsolata", monospace;
+    font-family: "tommy";
     font-size: 2.5vw;
     font-style: normal;
     line-height: normal;

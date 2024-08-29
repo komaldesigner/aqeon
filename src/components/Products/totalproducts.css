@@ -2,7 +2,10 @@
     font-family: 'mm2';
     src: url('../../fonts/Ligconsolata-Regular.ttf') format('ttf');
 }
-
+@font-face {
+    font-family: 'tommy';
+    src: url('../../fonts/tommy.otf') format('otf');
+}
 .hmbnnr3mproductother2alltotal {
     width: 90%;
     margin:auto;
@@ -11,7 +14,7 @@
 
 .hmbnnr3mproductother2alltotal h3 {
     color: #42A1DA;
-    font-family: "Lilita One", sans-serif;
+    font-family: "tommy";
     font-size: 2.5vw;
     font-style: normal;
     font-weight: 400;
