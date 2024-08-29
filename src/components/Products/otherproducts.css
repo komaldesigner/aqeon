@@ -23,13 +23,14 @@
 }
 .hmbnnr3mproductsection1other2 h4 {
     color: #000;
-    font-family: 'mm2';
+    font-family: "Inconsolata", monospace;
     font-size: 2.5vw;
     font-style: normal;
     line-height: normal;
     text-transform: capitalize;
     margin-top: 10%;
     margin-bottom: 3%;
+    text-align: center;
 }
 
 .hmbnnr3mproductssectionother2 {
@@ -130,7 +131,6 @@
        
     }
     .hmbnnr3mproductimgdesgnother {
-        background-color: #42A1DA;
         width: 85%;
         height: auto;
         padding: 0;
@@ -145,6 +145,7 @@ font-size: 9.0vw;
     }
     .hmbnnr3mproductsection1other2 h4{
         font-size: 7.5vw;
+        text-align: center;
     }
     .hmbnnr3mproductsectionotrrowother p {
        

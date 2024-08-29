@@ -185,7 +185,6 @@
     }
 
     .hmbnnr3mproductimgdesgnother {
-        background-color: #42A1DA;
         width: 85%;
         height: auto;
         padding: 0;
@@ -202,6 +201,7 @@
 
     .hmbnnr3mproductsection1other2 h4 {
         font-size: 7.5vw;
+        text-align: center;
     }
 
     .hmbnnr3mproductsectionotrrowother p {
