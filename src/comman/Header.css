@@ -105,9 +105,9 @@
 }
 
 .active-menu {
-  color: #000;
+  color: #4fb6eb;
   text-decoration: none;
-  font-size: calc(0.6.5vw + 0.7.5vh);
+  font-size: calc(0.6vw + 0.7vh);
   font-family: "Lilita One", sans-serif;
   text-transform: uppercase;
 }

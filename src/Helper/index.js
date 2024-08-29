@@ -45,7 +45,7 @@ export const productsData = [
                     {
                         id: 1,
                         imgSrc: pro1,
-                        productName: 'Backwash'
+                        productName: 'WATER SOFTNER'
                     },
                     {
                         id: 2,
