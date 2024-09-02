@@ -4,6 +4,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { productsData } from '../../Helper/index.js';
 import './Product.css';
+import { useNavigate } from 'react-router-dom';
 
 const Product = () => {
     const sliderSettings = {
@@ -32,7 +33,7 @@ const Product = () => {
         ],
     };
 
-
+    const navigate = useNavigate();
     const filterProducts = (prodCat, subCat) => {
         const category = productsData.find(cat => cat.prodCat === prodCat);
         if (!category) return [];
@@ -40,11 +41,19 @@ const Product = () => {
         const subCategory = category.subCategories.find(sub => sub.subCat === subCat);
         if (!subCategory) return [];
         
-        return subCategory.products;
+        return subCategory.homeproducts;
     };
 
-const products = filterProducts('Home', 'home');
-console.log('products', products);
+const homeproducts = filterProducts('Home', 'home');
+console.log('products', homeproducts);
+
+const handleImageClick = (homeproducts) => {
+    let products = homeproducts
+    console.log(homeproducts);
+    navigate(`/Alltotalproducts/${homeproducts.id}`, { state: { products } });
+    window.scrollTo(0, 0);
+ 
+};
     
 
     return (
@@ -52,10 +61,11 @@ console.log('products', products);
             <h3>PRODUCT RANGE</h3>
             <div>
                 <Slider {...sliderSettings}>
-                    {products.map((item, index) => (
+                    {homeproducts.map((item, index) => (
                         <div key={index} className="features-slide">
                             <div className='features-card'>
-                                <div className="features-image-wrapper">
+                                <div className="features-image-wrapper"  onClick={() => handleImageClick(item)}
+            style={{ cursor: 'pointer' }}>
                                     <img src={item.imgSrc} alt={item.productName} className="features-image" />
                                 </div>
                                 <p>{item.productName}</p>

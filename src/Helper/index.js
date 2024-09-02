@@ -41,31 +41,113 @@ export const productsData = [
         subCategories: [
             {
                 subCat: 'home',
-                products: [
+                homeproducts: [
                     {
                         id: 1,
                         imgSrc: pro1,
-                        productName: 'WATER SOFTNER'
+                        productName: 'WATER SOFTNER',
+                        overview : {
+                            oviewDes: 'About the 3M™ Fully Automatic Water Softeners\nA Fully Automatic Household Water Softener to give soft water throughout your home. The product is a convenient solution for all your hard water problems.\n\nOne-of-a-kind fully automatic hard water to soft water converter, with automatic regeneration, 3M Water Softener is a minimal maintenance sleek product that gives you soft, quality water throughout your house, without any effort.\n\nThe system prevents scaling/hard water stains on your taps, faucets, and fixtures in your bathroom and kitchen ensuring that bathroom fittings look good as new for longer. The system also protects your water-using appliances like a geyser, washing machine, dishwasher, etc., from internal damage and corrosion, thus extending their life. Not only this, the soft water protects your hair and skin from the harmful effects of hard water.',
+                            oviwdespont: [
+                                '3M™ Fully Automatic Water Softener is available in two series namely SFT & WTS. It uses Ion-exchange technology for softening and comes with a programmable multi-port valve avoiding any manual intervention for regeneration. Regeneration time can be set once and regeneration happens automatically while you are asleep. The system automatically performs multiple regenerations till the salt is present in the system.',
+                                '3M™ Fully Automatic Water Softener is an intelligent, low-maintenance softener that quietly softens your entire family\'s water. The softeners have high capacity salt storage to minimize the frequency of salt refilling.',
+                                '3M™ Fully Automatic Water Softeners use high-efficiency food-grade resin which has a higher life. An intelligent control valve with a centralized controlling system provides operational ease & smooth user interface for checking the operating status.',
+                                'Ion Exchange Technology',
+                                'How it works for you',
+                                'The high-efficiency softening resin ensures that you have soft water throughout your house. The resin removes Calcium, Magnesium, and Iron (specific to SFT-200Fe) by replacing them with Sodium ions, hence treating your water for hardness and iron problems.'
+                            ]
+                        },
+                        proDetilTable : {
+                            attr: [
+                                { name: "Model", value: "WTF 28" },
+                                { name: "Dimensions mineral Tank (in cm)", value: "21*112"},
+                                { name: "Dimensions Brine Tank (in cm)", value: "38*38*87" },
+                                { name: "Temp Range (in Celsius)", value: "4.4 – 37.8" },
+                                { name: "Pipe Size", value: "1” NPT"},
+                                { name: "Electrical Requirements (in Volts)", value: "110 / 120" },
+                                { name: "Pressure Range (in Bar)", value: "1.7 to 8.6"},
+                                { name: "Flow Rate (in LPM)", value: "32"},
+                                { name: "Salt capacity (KG)", value: "100" }
+                            ]
+                        } 
                     },
                     {
                         id: 2,
                         imgSrc: pro2,
-                        productName: 'DWS2000T'
+                        productName: 'DWS2000T',
+                        overview : {
+                            oviewDes:'A unique drinking water system that uses advanced Integrated Membrane Pre-Activated Carbon Technology (“I.M.P.A.C.T.”) technology to provide 99.99% germ free water, without wasting water or using electricity.',
+                            oviwdespont: [
+                                'Provides water free from cysts and Volatile Organic compounds(VOC)',
+                                'Simple under-the-sink design with a dedicated superior grade stainless steel faucet. Faucet comes with an LED indicator for cartridge-change',
+                                'No water wasted in the process of filtration.',
+                                'It works without electricity and gives you continuous supply of water directly from the tap',
+                                'Smart Audio and Visual Cartridge-change indicator, to show the life of the cartridge'
+                            ]
+                        }
                     },
                     {
                         id: 3,
                         imgSrc: pro3,
-                        productName: 'IAS140S'
+                        productName: 'IAS140S',
+                        overview : {
+                            oviewDes: '3M™ EcoSip provides you with a germ- and stain-free kitchen, so you can cook, wash vegetables and clean utensils with pure water from any tap in the kitchen.',
+                            oviwdespont: [
+                                // Add any additional points here if needed, or keep this array empty if not.
+                            ]
+                        }
                     },
                     {
                         id: 4,
                         imgSrc: pro4,
-                        productName: 'IAS102T'
+                        productName: 'IAS102T',
+                        overview : {
+                            oviewDes: 'The large capacity IAS102T effectively improves your experience of using water by reducing the harmful effects of hard water and removing sediments. The system reduces sediments and other contaminants to provide cleaner, clearer water used throughout your house. This can be used for higher flow rates and larger houses',
+                            oviwdespont: [
+                                // Add any additional points here if needed, or keep this array empty if not.
+                            ]
+                        },
+                        proDetilTable : {
+                            attr: [
+                                { name: "Capacity in litres", value: "200,000" },
+                                { name: "Filtration in Microns", value: "0.2" },
+                                { name: "Height (Inches)", value: "24" },
+                                { name: "Diameter (Inches)", value: "4" },
+                                { name: "Flow Rate (LPM)", value: "19.7" },
+                                { name: "Inlet Outlet Size FNPT (inches)", value: "1/2" },
+                                { name: "Maximum Operating Temperature (Celsius)", value: "37.8" },
+                                { name: "Max Pressure (bar)", value: "8.7" },
+                                { name: "Reduction Claims", value: "Bacteria, Bacteriostatic, Chlorine Taste & Odor, Cyst, Particulate, Sediment" }
+                            ]
+                        } 
                     },
                     {
                         id: 5,
                         imgSrc: pro5,
-                        productName: 'IAS190S'
+                        productName: 'IAS190S',
+                        overview : {
+                            oviewDes: 'The 3M™ High Flow Series System for Cold Beverage Applications, Model IAS 190 provides consistent high-quality water by reducing particulate*, chlorine taste and odor, cyst**, and bacteria. Integrated Membrane Pre-Activated Carbon Technology (“I.M.P.A.C.T.”) filtration media combines a membrane with a premium activated carbon block to help provide excellent throughput and cartridge life. The Sanitary Quick Change (SQC) design allows for easy cartridge change-outs.',
+                            oviwdespont: [
+                                // Add any additional points here if needed, or keep this array empty if not.
+                                'The IAS102T operates at a water pressure upto 862 kPa, flow rate upto 60 LPM and temperatures upto 37.8°C.',
+                                'Maintains efficiency and helps extend the life of water-using appliances',
+                                'Manufactured from FDA CFR-21 compliant materials – food grade scale inhibitor.',
+                                'Transparent housing for easy viewing of cartridge.',
+                                'Built-in pressure relief for easy cartridge replacement'
+                            ]
+                        },
+                        proDetilTable : {
+                            attr: [
+                                { name: "Micron Rating", value: "5" },
+                                { name: "Height (Inches)", value: "24.25" },
+                                { name: "Diameter (Inches)", value: "4.56 Inch" },
+                                { name: "Flow Rate (LPM)", value: "60" },
+                                { name: "Inlet Outlet Size FNPT (inches)", value: "1/2" },
+                                { name: "Maximum Operating Temperature (Celsius)", value: "37.8" },
+                                { name: "Max Pressure (bar)", value: "1.7-6.9" },
+                                { name: "Replacement Interval", value: "6 -12 Month" }
+                            ]
+                        }     
                     }
                 ]
             },
