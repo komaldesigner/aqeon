@@ -58,7 +58,7 @@ const handleImageClick = (homeproducts) => {
 
     return (
         <div className='hmbnnrproduct1'>
-            <h3>PRODUCT RANGE</h3>
+            <h3 data-aos="fade-down">PRODUCT RANGE</h3>
             <div>
                 <Slider {...sliderSettings}>
                     {homeproducts.map((item, index) => (

@@ -8,9 +8,9 @@ const otherproducat = () => {
     <>
       <Banner       
       index={'products2'}
-      startText={'Revolutionizing Water'}
+      startText={''}
       centerText={''}
-      endText={'Treatment for a Healthier Tomorrow'}
+      endText={''}
       isanothervalue={false}
       />
       

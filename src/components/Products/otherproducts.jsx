@@ -39,29 +39,29 @@ const ThreemProduct = () => {
                 <h3>Other Products</h3>
                 <div className="hmbnnr3mproductsection1other2">
                     <div>
-                        <h4>Utility Water Filtration</h4>
+                        <h4 data-aos="fade-right">Utility Water Filtration</h4>
                         <div className="hmbnnr3mproductssectionother2">
                             {otherutlitywater.map((item, index) => (
                                 <div key={index} className="hmbnnr3mproductsectionotrrowother">
                                     <div className="hmbnnr3mproductimgdesgnother"  onClick={() => handleImageClick(item)}
             style={{ cursor: 'pointer' }}>
                                         <img src={item.imgSrc} alt={item.productName} />
+                                        <div id="hmbnn3brandname"><p>{item.productName}</p></div>
                                     </div>
-                                    <p>{item.productName}</p>
                                 </div>
                             ))}
                         </div>
                     </div>
                     <div>
-                        <h4>Water Softner</h4>
+                        <h4 data-aos="fade-right">Water Softner</h4>
                         <div className="hmbnnr3mproductssectionother2">
                             {otherWatersftnr.map((item, index) => (
-                                <div key={index} className="hmbnnr3mproductsectionotrrowother">
+                                <div key={index}  id="hmbnnr3mproduothedesing">
                                     <div className="hmbnnr3mproductimgdesgnother"  onClick={() => handleImageClick(item)}
             style={{ cursor: 'pointer' }}>
                                         <img src={item.imgSrc} alt={item.productName} />
+                                        <div id="hmbnn3brandname"><p>{item.productName}</p></div>
                                     </div>
-                                    <p>{item.productName}</p>
                                 </div>
                             ))}
                         </div>
@@ -71,29 +71,29 @@ const ThreemProduct = () => {
 
                 <div className="hmbnnr3mproductsection1other2">
                     <div>
-                    <h4>Hot Water System</h4>
-                        <div className="hmbnnr3mproductssectionother2">
+                        <div className="hmbnnr3mproductssectionother2" id="hmbnnr3othrprodhdintxt">                            
+                        <h4 data-aos="fade-right">Hot <br />Water <br />System</h4>
                             {otherhotwater.map((item, index) => (
                                 <div key={index} className="hmbnnr3mproductsectionotrrowother">
                                     <div className="hmbnnr3mproductimgdesgnother"  onClick={() => handleImageClick(item)}
             style={{ cursor: 'pointer' }}>
                                         <img src={item.imgSrc} alt={item.productName} />
+                                        <div id="hmbnn3brandname"><p>{item.productName}</p></div>
                                     </div>
-                                    <p>{item.productName}</p>
                                 </div>
                             ))}
                         </div>
                     </div>
                     <div>
-                    <h4>Pumps</h4>
+                    <h4 data-aos="fade-right">Pumps</h4>
                         <div className="hmbnnr3mproductssectionother2">
                             {otherpumps.map((item, index) => (
                                 <div key={index} className="hmbnnr3mproductsectionotrrowother">
                                     <div className="hmbnnr3mproductimgdesgnother"  onClick={() => handleImageClick(item)}
             style={{ cursor: 'pointer' }}>
                                         <img src={item.imgSrc} alt={item.productName} />
+                                        <div id="hmbnn3brandname"><p>{item.productName}</p></div>
                                     </div>
-                                    <p>{item.productName}</p>
                                 </div>
                             ))}
                         </div>
@@ -101,30 +101,30 @@ const ThreemProduct = () => {
                 </div>
 
                 <div className="hmbnnr3mproductsection1">
-                    <h4>Drain Channel</h4>
-                    <div className="hmbnnr3mproductssection2">
+                    <h4 data-aos="fade-right">Drain Channel</h4>
+                    <div className="hmbnnr3mproductssection2" id="hmbnnr3proddesnchngedrin">
                         {otherdrainchannel.map((item, index) => (
                             <div key={index} className="hmbnnr3mproductsectionotrrowother">
                                 <div className="hmbnnr3mproductimgdesgnother"  onClick={() => handleImageClick(item)}
             style={{ cursor: 'pointer' }}>
                                     <img src={item.imgSrc} alt={item.productName} />
+                                    <div id="hmbnn3brandname"><p>{item.productName}</p></div>
                                 </div>
-                                <p>{item.productName}</p>
                             </div>
                         ))}
                     </div>
                 </div>
                 
                 <div className="hmbnnr3mproductsection1">
-                    <h4>Manhole Covers</h4>
+                    <h4 data-aos="fade-right">Manhole Covers</h4>
                     <div className="hmbnnr3mproductssection2" >
                         {othermanhole.map((item, index) => (
                             <div key={index} className="hmbnnr3mproductsectionotrrowother">
                                 <div className="hmbnnr3mproductimgdesgnother"  onClick={() => handleImageClick(item)}
             style={{ cursor: 'pointer' }}>
                                     <img src={item.imgSrc} alt={item.productName} />
+                                    <div id="hmbnn3brandname"><p>{item.productName}</p></div>
                                 </div>
-                                <p>{item.productName}</p>
                             </div>
                         ))}
                     </div>

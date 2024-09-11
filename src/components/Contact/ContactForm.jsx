@@ -45,20 +45,20 @@ const ContactForm = () => {
                 <div className="row">
                     <div className="col-lg-4 col-sm-6">
                         <div className="hmbnnrcnctfrmdttl">
-                            <h3>Phone</h3>
-                            <p>+91 9815183032</p>
+                            <h3 data-aos="fade-right">Phone</h3>
+                            <p data-aos="fade-down">+91 9815183032</p>
                         </div>
                     </div>
                     <div className="col-lg-4 col-sm-6">
                         <div className="hmbnnrcnctfrmdttl">
-                            <h3>Email</h3>
-                            <p>Aqeonenterprises@gmail.com</p>
+                            <h3 data-aos="fade-right">Email</h3>
+                            <p data-aos="fade-down">Aqeonenterprises@gmail.com</p>
                         </div>
                     </div>
                     <div className="col-lg-4 col-sm-12">
                         <div className="hmbnnrcnctfrmdttl">
-                            <h3>Office</h3>
-                            <p>Ayali Chownk, Near Autonation, Ludhiana</p>
+                            <h3 data-aos="fade-right">Office</h3>
+                            <p data-aos="fade-down">Ayali Chownk, Near Autonation, Ludhiana</p>
                         </div>
                     </div>
                 </div>

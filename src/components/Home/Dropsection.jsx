@@ -22,7 +22,7 @@ const Dropsection = () => {
                 <source src={dropvideo} type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
-            <div className="overlay-textvideo">
+            <div className="overlay-textvideo" data-aos="flip-down">
                 because every drop counts
             </div>
         </div>

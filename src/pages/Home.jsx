@@ -4,6 +4,8 @@ import About from "../components/Home/Aboutus.jsx";
 import Product from "../components/Home/Product.jsx";
 import Drop from "../components/Home/Dropsection.jsx";
 import Tesimonial from "../components/Home/Testimonial.jsx";
+import Brands from "../components/Home/brands.jsx";
+
 
 const Home = () => {
   return (
@@ -18,6 +20,7 @@ const Home = () => {
       />
       <About />
       <Product />
+      <Brands />
       <Drop />
       <Tesimonial />
     </>

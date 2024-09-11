@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos'; 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './comman/Header';
 import Footer from './comman/Footer';
@@ -11,20 +12,23 @@ import Brandpartners from './pages/brandpartners';
 import About from './pages/aboutus';
 
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 }); 
+  });
   return (
-      <div>
-      <Router>        
-        <Header/>
+    <div>
+      <Router>
+        <Header />
         <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/products" element={<Product />} />
-        <Route path="/Products2" element={<Product2 />} />
-        <Route path="/Alltotalproducts/:id" element={<Alltotalproducts />} />
-        <Route path="/brandpartners" element={<Brandpartners />} />
-        <Route path="/aboutus" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/products" element={<Product />} />
+          <Route path="/Products2" element={<Product2 />} />
+          <Route path="/Alltotalproducts/:id" element={<Alltotalproducts />} />
+          <Route path="/brandpartners" element={<Brandpartners />} />
+          <Route path="/aboutus" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </Router>
     </div>
   );

@@ -66,19 +66,25 @@
     align-items: center;
     margin-top: 2.3%;
 }
-
 .fttrlink1 a {
     text-decoration: none;
-    color: #FFF !important;
+    color: #FFF;
     font-family: "Linden Hill", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1.563vw;
-    font-weight: 400;
     line-height: normal;
     letter-spacing: -0.36px;
     text-transform: capitalize;
+    display: inline-block; /* Ensure proper block behavior for transform */
+    transition: transform 0.3s ease-in-out;  /* Smooth transition */
 }
+
+.fttrlink1 a:hover {
+    transform: translateY(-10px); 
+    color:#42A1DA ;
+}
+
 
 .fttrfanivalyear {
     display: flex;

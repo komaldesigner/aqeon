@@ -52,6 +52,7 @@
   color: #FFF;
   font-size: calc(0.9vw + 0.9vh);
   text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
 }
 
 .navbar a:hover {
@@ -125,13 +126,13 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
-  .hdrdesktop {
-    display: none;
-  }
-
+@media screen and (max-width: 991px) {
   .mobilenavbar {
     position: relative;
+  }
+
+  .hdrdesktop {
+    display: none;
   }
 
   .hdrmobile {

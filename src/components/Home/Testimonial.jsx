@@ -35,8 +35,8 @@ const Testimonial = () => {
     };
     return (
         <>
-            <div class="hmbnnrtstmoni">
-                <h3>What Our Customers Say</h3>
+            <div className="hmbnnrtstmoni">
+                <h3 data-aos="flip-up">What Our Customers Say</h3>
                 <div>
                     <Slider {...sliderSettings}>
                         {customerSays.map((item, index) => (
@@ -52,7 +52,7 @@ const Testimonial = () => {
                     </Slider>
                 </div>
             </div>
-            <div className="lastsection">
+            <div className="lastsection" >
                 <p>At Aqeon Enterprises, we are committed to providing exceptional water softening solutions to meet all your needs. Contact us today to learn more about our products and how we can help you achieve the best water quality possible.</p>
             </div>
         </>

@@ -1,0 +1,145 @@
+.hmbnnrproduct1 {
+    width: 80%;
+    margin:5% auto;
+}
+.hmbnnrproduct1 h3 {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vw;
+    color: #42A1DA;
+    text-align: center;
+}
+.hmbnnrprodct2btn{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+.hmbnnrprodct2btn button {
+    border-radius: 30px;
+    background: #000;
+    font-family: "Lilita One", sans-serif;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+    padding:2% 4%;
+    border: none;
+    font-size: 1.5VW;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+.hmbnnrprodct2btn button:hover {
+    background-color: #333;
+}
+.slick-slide img {
+    width: 80%;
+}
+
+  .features-slide {
+    text-align: center; 
+    padding: 15px;
+    border: none;
+  }
+  
+  .features-image {
+    height: auto;
+    margin-bottom: 20px; 
+  }
+  
+  .feature-h3{
+    font-size: 1.5em; 
+  }
+
+  .features-card{
+    perspective: 1000px;
+    transition: transform 0.3s ease-in-out; 
+    transform-style: preserve-3d;
+    padding: 20px;
+    border-radius: 10px;
+
+  }
+
+  .features-card:hover {
+    transform: rotateX(10deg) rotateY(10deg); 
+  }
+  
+  .features-image-wrapper {
+    transition: transform 0.3s ease-in-out; 
+    display: flex;
+    justify-content: center;
+  }
+  
+  .features-card:hover .features-image-wrapper {
+    transform: scale(1.05);
+    transform-origin: center;
+  }
+
+  .features-card p {
+    color: #000;
+    font-family: "Lilita One", sans-serif;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+  @media screen and (max-width: 1024px) {
+    .features-image {
+      width: 70%; 
+      height: auto;
+      margin-bottom: 20px; 
+    }
+    .feature-h3{
+      font-size: 1.2em; 
+    }
+    .hmbnnrprodct2btn button{
+      border-radius: 23px;
+      padding: 4% 6%;
+      font-size: 2.3vw;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .features-image {
+      width: 70%; 
+      height: auto;
+      margin-bottom: 20px; 
+    }
+    .feature-h3{
+      font-size: 1.2em; 
+    }
+  }
+  @media screen and (max-width: 575px){
+    .features-card p {
+      font-size: 3.283vw;
+  }
+  
+  .hmbnnrprodct2btn button {
+    border-radius: 23px;
+    padding: 5% 7%;
+    font-size: 3.3vw;
+}
+  }
+  @media screen and (max-width: 375px){
+    .features-card p {
+      font-size: 5.283vw;
+  }
+  .hmbnnrproduct1 h3 {
+    font-size: 6.9vw;
+}
+
+.hmbnnrprodct2btn button {
+  border-radius: 23px;
+  padding: 5.5% 9%;
+  font-size: 3.8vw;
+}
+  }

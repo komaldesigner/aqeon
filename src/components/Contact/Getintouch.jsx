@@ -20,9 +20,9 @@ const Getintouch = () => {
         <div className="row">
             <div className="col-lg-6 col-md-12">
                 <div className="hmbnnrctgttchtxtlft">
-                    <h3 ref={h3Ref}>GET IN TOUCH</h3>
-                    <h4 ref={h4Ref}>WITH US</h4>
-                    <p>Drop us a Line for Crystal Clear Service</p>
+                    <h3 ref={h3Ref} data-aos="fade-down">GET IN TOUCH</h3>
+                    <h4 ref={h4Ref} data-aos="fade-down">WITH US</h4>
+                    <p data-aos="fade-down">Drop us a Line for Crystal Clear Service</p>
                 </div>
                 <div className="hmbnnrctgttchtxtlftmobile">
                     <h3 ref={h3Ref}>GET IN TOUCH <h4 ref={h4Ref}>WITH US</h4></h3>                    
@@ -31,7 +31,7 @@ const Getintouch = () => {
             </div>
             <div className="col-lg-6 col-md-12">
                 <div className="hmbnnrctgttchtxtrgt">
-                    <p>
+                    <p data-aos="flip-up">
                         We’re here to help you with all your water softening needs. Whether you have questions about our products, need support, or want to schedule a consultation, our team is ready to assist you.
                     </p>
                 </div>

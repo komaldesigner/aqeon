@@ -184,9 +184,9 @@ const Header = () => {
                   <>
                     <span
                       onClick={handleMenuClick}
-                      aria-controls={open ? 'dropdown-menu' : undefined}
+                      aria-controls={open ? 'dropdown-menu' : 'undefined'}
                       aria-haspopup="true"
-                      aria-expanded={open ? 'true' : undefined}
+                      aria-expanded={open ? 'true' : 'undefined'}
                       className="active"
                       style={{ cursor: 'pointer' }}
                     >
@@ -229,7 +229,7 @@ const Header = () => {
       <div className="hdrmobile">
         <div className="logo"><img src={logo} alt="Logo" /></div>
         <MenuLabel htmlFor="navi-toggle" onClick={handleClick}>
-          <Icon clicked={click}>&nbsp;</Icon>
+           <Icon clicked={click || undefined}>&nbsp;</Icon> 
         </MenuLabel>
         <NavBackground clicked={click}>&nbsp;</NavBackground>
         <Navigation clicked={click}>

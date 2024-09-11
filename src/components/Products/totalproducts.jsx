@@ -1,9 +1,39 @@
-import React from "react";
+import React, { useState } from 'react';
 import './totalproducts.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useLocation } from 'react-router-dom';
 
 const Alltotalproducts = () => {
+
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        mobile: '',
+        city: '',
+        brand: '',
+        product: '',
+        message: '',
+      });
+    
+      const [showForm, setShowForm] = useState(false); // To toggle the form
+    
+      const handleInputChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({
+          ...formData,
+          [name]: value,
+        });
+      };
+    
+      const handleSubmit = (e) => {
+        e.preventDefault();
+        // Handle form submission logic here
+        console.log(formData);
+        alert("Enquiry Submitted!");
+        setShowForm(false); // Close the form after submission
+      };
+
+    //   filter
 
     const location = useLocation(); // Get the location object to access state
     const { products } = location.state || {}; // Extract state from location
@@ -16,6 +46,9 @@ const Alltotalproducts = () => {
     const { imgSrc, productName, overview, proDetilTable } = products || {};
     console.log('proDetilTable', proDetilTable);
     const { oviewDes, oviwdespont } = overview || {};
+
+
+    
 
 
     return (
@@ -50,8 +83,95 @@ const Alltotalproducts = () => {
                                     }
                                 </ul>
                                 <div className="hmbnnrtotalproductsrighttxt">
-                                    <button onClick={() => window.location.href = "contact"}>Enquire Now</button>
+                                    <button onClick={() => setShowForm(true)}>Enquire Now</button>
                                 </div>
+                                {showForm && (
+        <div className="enquire-form-container">
+          <div className="enquire-form">
+            <button className="close-modal-btn" onClick={() => setShowForm(false)}>X</button>
+            <h2>Enquire Now</h2>
+            <form onSubmit={handleSubmit}>
+              <div className="form-group">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Name*"
+                  value={formData.name}
+                  onChange={handleInputChange}
+                  required
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email*"
+                  value={formData.email}
+                  onChange={handleInputChange}
+                  required
+                />
+              </div>
+
+              <div className="form-group">
+                <input
+                  type="tel"
+                  name="mobile"
+                  placeholder="Enter Mobile Number"
+                  value={formData.mobile}
+                  onChange={handleInputChange}
+                  required
+                />
+                <input
+                  type="text"
+                  name="city"
+                  placeholder="City"
+                  value={formData.city}
+                  onChange={handleInputChange}
+                  required
+                />
+              </div>
+
+              <div className="form-group">
+                <select
+                  name="brand"
+                  value={formData.brand}
+                  onChange={handleInputChange}
+                  required
+                >
+                  <option value="">Select Brand</option>
+                  <option value="Brand1">Brand 1</option>
+                  <option value="Brand2">Brand 2</option>
+                  {/* Add more brands */}
+                </select>
+                <select
+                  name="product"
+                  value={formData.product}
+                  onChange={handleInputChange}
+                  required
+                >
+                  <option value="">Select Product</option>
+                  <option value="Product1">Product 1</option>
+                  <option value="Product2">Product 2</option>
+                  {/* Add more products */}
+                </select>
+              </div>
+
+              <div className="form-group">
+                <textarea
+                  name="message"
+                  placeholder="Your Message"
+                  value={formData.message}
+                  onChange={handleInputChange}
+                />
+              </div>
+
+              <div className="form-group">
+                <button type="submit" className="submit-btn">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
                             </div>
                         </div>
                     </div>

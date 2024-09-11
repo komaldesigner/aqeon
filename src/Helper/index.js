@@ -34,6 +34,10 @@ import prom32 from '../assets/product/othrpro32.svg'
 import prom33 from '../assets/product/othrpro33.svg'
 import prom34 from '../assets/product/othrpro34.svg'
 import prom35 from '../assets/product/othrpro35.svg'
+import brands1 from '../assets/logo/logo1.svg'
+import brands2 from '../assets/logo/logo2.svg'
+import brands3 from '../assets/logo/logo3.svg'
+import brands4 from '../assets/logo/logo4.svg'
 
 export const productsData = [
     {
@@ -863,5 +867,27 @@ export const customerSays = [
         id: 3,
         review: "Our business relies on a constant supply of soft water, and Aqeon's commercial system has been a game-changer for us. Highly recommend",
         customerName: '-Abhay'
+    }
+];
+export const homeBrands = [
+    {
+        id: 1,
+        imgsrc: brands1
+        
+    },
+    {
+        id: 2,
+        imgsrc: brands2
+        
+    },
+    {
+        id: 3,
+        imgsrc: brands3
+        
+    },
+    {
+        id: 4,
+        imgsrc: brands4
+        
     }
 ]

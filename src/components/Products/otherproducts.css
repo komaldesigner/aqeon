@@ -17,19 +17,20 @@
     line-height: normal;
     text-transform: capitalize;
 }
-.hmbnnr3mproductsection1other2{
+/* .hmbnnr3mproductsection1other2{
     display: flex;
     align-items: end;
-}
+} */
 .hmbnnr3mproductsection1other2 h4 {
     color: #000;
     font-size: 2.5vw;
     font-style: normal;
     line-height: normal;
     text-transform: capitalize;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 3%;
-    text-align: center;
+    font-family: Kumbh Sans;
+    font-weight: 400;
 }
 
 .hmbnnr3mproductssectionother2 {
@@ -37,20 +38,44 @@
     width: 100%;
     margin: auto;
     align-items: center;
-    padding-right: 8%;
+    /* justify-content: space-between; */
+}
+
+#hmbnnr3othrprodhdintxt h4{
+    color: #b3b3b3;
+    font-size: 5vw;
+    font-style: normal;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    font-family: Kumbh Sans;
+    font-weight: 400;
+    margin-right: 10%;
 }
 
 .hmbnnr3mproductimgdesgnother {
-    background-color: #dbdbdb;
     padding: 15% 0;
-    width: 85%;
-    height: 365px;
+   
+}
+
+.hmbnnr3mproductsectionotrrowother{
+    width: 20%;
     margin: auto;
-    display: flex;
+}
+
+#hmbnnr3mproduothedesing{
+    margin-right: auto;
+    width: 20%;
 }
 
 .hmbnnr3mproductimgdesgnother img {
     width: 100%;
+    transition: all 0.3s ease-in-out; /* Smooth transition for all properties */
+}
+
+.hmbnnr3mproductimgdesgnother img:hover {
+    transform: translateY(-10px); 
 }
 
 .hmbnnr3mproductsectionotrrowother p {
@@ -79,6 +104,11 @@
     text-transform: capitalize;
 }
 
+#hmbnnr3proddesnchngedrin{
+    gap: 10%;
+    flex-wrap: wrap;
+}
+
 .hmbnnr3mproducttglinetxtother span {
     color: #42A1DA;
     font-family: "Linden Hill", serif;
@@ -89,24 +119,21 @@
     letter-spacing: -0.4px;
     text-transform: capitalize;
 }
+
+.hmbnnr3mproductssection2 {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+
 @media screen and (max-width: 1440px){
-    .hmbnnrtxtproductother h4 span{
-        /* font-size: 56px; */
-       
-    }
-    .hmbnnrtxtproductother h4{
-        /* font-size: 56px; */
-        
-    }
     .hmbnnrtxtproductother{
         margin-left: 4%;
     }
     .hmbnnr3mproductsectionotrrowother p {
         font-size: 1.4vw;
       
-    }
-    .hmbnnrtxtproductother{
-        /* font-size: 106px; */
     }
 }
 
@@ -131,7 +158,6 @@
     }
     .hmbnnr3mproductimgdesgnother {
         width: 85%;
-        height: auto;
         padding: 0;
     }
       
@@ -152,14 +178,34 @@ font-size: 9.0vw;
         text-align: center;
     }
     .hmbnnr3mproductssection2{
-width: 85%;
+        display: block;    
+    }
+
+    .hmbnnr3mproductsectionotrrow{
+        width: 90%;
+        margin: 5% auto;
+    }
+    .hmbnnr3mproductsectionotrrowother{
+        width:100%;
+        margin:15% auto;
+    }
+    #hmbnnr3mproduothedesing{
+        width:100%;
+    }
+
+    #hmbnnr3othrprodhdintxt h4{
+        font-size: 7.5vw;
+        width: 100%;
+        color: #000;
+        margin-top: 10%;
+    }
+    
+    #hmbnnr3othrprodhdintxt h4 br{
+        display:none;
     }
 }
 
 @media screen and (max-width: 1024px){
-    .hmbnnr3mproductimgdesgnother{
-        height: 250px !important;
-    }
     .hmbnnr3mproductssectionother2{
         padding: 0;
     }
@@ -171,8 +217,5 @@ width: 85%;
         }
 }
 @media screen and (max-width: 768px){
-    .hmbnnr3mproductimgdesgnother{
-        height: 190px;
-    }
 
 }

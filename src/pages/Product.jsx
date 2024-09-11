@@ -8,9 +8,9 @@ const Products = () => {
     <>
       <Banner       
       index={'products'}
-      startText={'DISCOVER'}
-      centerText={'SUPERIOR WATER QUALITY WITH'}
-      endText={'AQEON ENTERPRISES'}
+      startText={''}
+      centerText={''}
+      endText={''}
       isvalue={false}
       isanothervalue={true}
       />
