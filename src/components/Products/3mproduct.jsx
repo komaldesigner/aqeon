@@ -14,7 +14,12 @@ const ThreemProduct = () => {
         const subCategory = category.subCategories.find(sub => sub.subCat === subCat);
         if (!subCategory) return [];
 
-        return subCategory.products;
+        const productsWithSubCat = subCategory.products.map(product => ({
+            ...product,
+            subname: subCat
+        }));
+
+        return productsWithSubCat;
     };
 
     const utlitywaterproduct = filterProducts('Product3M', '3mUilitywater');

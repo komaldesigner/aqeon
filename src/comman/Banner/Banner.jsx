@@ -142,7 +142,7 @@ const Banner = ({ index, startText, centerText, endText, isvalue, isanothervalue
             {renderItem()}
             <div className={bannerclass()}>
                 {startText} {isvalue === true ? <span>{centerText}</span> : <span>{firsthalf}<p>{secondhalf}</p></span>} {
-                    isanothervalue === true ? <h4>{endText}</h4> : <h4>{endfisrt}<span style={index == 'brandpartners' ? { display: "none" } : {}}>{endsend}</span>{endthrd}</h4>
+                    isanothervalue === true ? <h4>{endText}</h4> : <h4>{endfisrt}<span style={index === 'brandpartners' ? { display: "none" } : {}}>{endsend}</span>{endthrd}</h4>
                 }
             </div>
         </div>

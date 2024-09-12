@@ -1,46 +1,65 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import './ContactForm.css';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-const ContactForm = () => {
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        mobile: '',
-        message: ''
-      });
-      const handleChange = (e) => {
-        setFormData({
-          ...formData,
-          [e.target.name]: e.target.value
+const ContactForm = () => { 
+
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    mobile: '',
+    message: ''
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const serviceId = 'service_30wlvar'; // Replace with your service ID
+    const templateId = 'template_3wza7sj'; // Replace with your template ID
+    const publicKey = '0JXKygSwTR_Sxlsbz'; // Replace with your public key
+
+    const templateParams = {
+      name: formData.name,
+      email: formData.email,
+      mobile: formData.mobile,
+      message: formData.message,
+    };
+
+    emailjs.send(serviceId, templateId, templateParams, publicKey)
+      .then((response) => {
+
+        console.log('SUCCESS!', response.status, response.text);
+
+        toast.success('Enquiry Submitted!', {
+          position: 'top-center', // Corrected reference
+          autoClose: 3000, // Time duration in milliseconds
         });
-      };
-      const handleSubmit = (e) => {
-        e.preventDefault();
-    
-        emailjs.send(
-          'developpitamaas@gmail.com', // Replace with your service ID
-          'YOUR_TEMPLATE_ID', // Replace with your template ID
-          formData,
-          'YOUR_USER_ID' // Replace with your user ID
-        ).then((response) => {
-          console.log('SUCCESS!', response.status, response.text);
-          alert('Message sent successfully!');
-        }).catch((err) => {
-          console.log('FAILED...', err);
-          alert('Failed to send the message.');
-        });
-    
         setFormData({
           name: '',
           email: '',
           mobile: '',
           message: ''
-        });
-      };
+        })
+
+      }, (err) => {
+        console.log('FAILED...', err);
+        alert('Failed to send enquiry. Please try again.');
+      });
+  };
 
     return (
         <>
+        <ToastContainer />
             <div className="hmbnnrcnct">
                 <div className="row">
                     <div className="col-lg-4 col-sm-6">
@@ -73,6 +92,7 @@ const ContactForm = () => {
                         <textarea name="message" placeholder='Message' value={formData.message} onChange={handleChange}></textarea>
                         <br />
                         <button type='submit'>SUBMIT</button>
+                        
                     </form>
                 </div>
 

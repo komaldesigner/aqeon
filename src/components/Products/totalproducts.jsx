@@ -2,50 +2,80 @@ import React, { useState } from 'react';
 import './totalproducts.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useLocation } from 'react-router-dom';
+import emailjs from 'emailjs-com'; // Import emailjs
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const Alltotalproducts = () => {
 
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        mobile: '',
-        city: '',
-        brand: '',
-        product: '',
-        message: '',
-      });
-    
-      const [showForm, setShowForm] = useState(false); // To toggle the form
-    
-      const handleInputChange = (e) => {
-        const { name, value } = e.target;
-        setFormData({
-          ...formData,
-          [name]: value,
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    mobile: '',
+    city: '',
+    brand: '',
+    product: '',
+    message: '',
+  });
+
+  const [showForm, setShowForm] = useState(false); // To toggle the form
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const serviceId = 'service_30wlvar'; // Replace with your service ID
+    const templateId = 'template_mgokmfh'; // Replace with your template ID
+    const publicKey = '0JXKygSwTR_Sxlsbz'; // Replace with your public key
+
+    const templateParams = {
+      name: formData.name,
+      email: formData.email,
+      mobile: formData.mobile,
+      city: formData.city,
+      brand: formData.brand,
+      product: formData.product,
+      message: formData.message,
+    };
+
+    emailjs.send(serviceId, templateId, templateParams, publicKey)
+      .then((response) => {
+        console.log('SUCCESS!', response.status, response.text);
+        toast.success('Enquiry Submitted!', {
+          position: 'top-center', // Corrected reference
+          autoClose: 3000, // Time duration in milliseconds
         });
-      };
-    
-      const handleSubmit = (e) => {
-        e.preventDefault();
-        // Handle form submission logic here
-        console.log(formData);
-        alert("Enquiry Submitted!");
-        setShowForm(false); // Close the form after submission
-      };
+      }, (err) => {
+        console.log('FAILED...', err);
+        alert('Failed to send enquiry. Please try again.');
+      });
+
+    setShowForm(false); // Close the form after submission
+  };
 
     //   filter
 
     const location = useLocation(); // Get the location object to access state
     const { products } = location.state || {}; // Extract state from location
 
-    console.log('otherhotwater', products);
+    //console.log('otherhotwater', products);
     if (!products) {
         // console.log(product);
         return <div>Product not found</div>;
     }
-    const { imgSrc, productName, overview, proDetilTable } = products || {};
-    console.log('proDetilTable', proDetilTable);
+   
+    const { subname, imgSrc, productName, overview, proDetilTable } = products || {};
+    console.log('subCat', subname);
     const { oviewDes, oviwdespont } = overview || {};
+    //const {subCat} = subcategory || {};
 
 
     
@@ -53,6 +83,7 @@ const Alltotalproducts = () => {
 
     return (
         <>
+          <ToastContainer />
             <div className="hmbnnr3mproductother2alltotal">
                 {/* product name  */}
                 <h3>{productName || ''}</h3>
@@ -137,8 +168,9 @@ const Alltotalproducts = () => {
                   required
                 >
                   <option value="">Select Brand</option>
-                  <option value="Brand1">Brand 1</option>
-                  <option value="Brand2">Brand 2</option>
+                  <option value={subname
+                     || ''}>{subname
+                   || ''}</option>
                   {/* Add more brands */}
                 </select>
                 <select
@@ -148,8 +180,7 @@ const Alltotalproducts = () => {
                   required
                 >
                   <option value="">Select Product</option>
-                  <option value="Product1">Product 1</option>
-                  <option value="Product2">Product 2</option>
+                  <option value={productName || ''}>{productName || ''}</option>
                   {/* Add more products */}
                 </select>
               </div>
