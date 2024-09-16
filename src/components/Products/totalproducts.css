@@ -24,7 +24,7 @@
 }
 
 .hmbnnr1productdetailtext h4 {
-    color: #000;
+    color: #47a9e4;
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -34,7 +34,7 @@
     font-style: normal;
     font-weight: 700;
     border-bottom-width: medium;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #47a9e4;
     width: 30%;
 }
 
@@ -42,7 +42,7 @@
     color: #5e5e5e;
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-style: normal;
     line-height: normal;
     margin: 5% 0;
@@ -52,7 +52,7 @@
     color: #5e5e5e;
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-style: normal;
     line-height: normal;
 }
