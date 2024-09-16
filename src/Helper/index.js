@@ -524,7 +524,7 @@ export const productsData = [
                     {
                         id: 19,
                         imgSrc: prom19,
-                        productName: '3M WTS28, WTS42 & WTS57',
+                        productName: '3M™ Fully Automatic Softeners – WTS',
                          overview : {
                             oviewDes: 'About the 3M™ Fully Automatic Water Softeners\nA Fully Automatic Household Water Softener to give soft water throughout your home. The product is a convenient solution for all your hard water problems.\n\nOne-of-a-kind fully automatic hard water to soft water converter, with automatic regeneration, 3M Water Softener is a minimal maintenance sleek product that gives you soft, quality water throughout your house, without any effort.\n\nThe system prevents scaling/hard water stains on your taps, faucets, and fixtures in your bathroom and kitchen ensuring that bathroom fittings look good as new for longer. The system also protects your water-using appliances like a geyser, washing machine, dishwasher, etc., from internal damage and corrosion, thus extending their life. Not only this, the soft water protects your hair and skin from the harmful effects of hard water.',
                             oviwdespont: [
