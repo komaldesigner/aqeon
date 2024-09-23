@@ -88,13 +88,13 @@ const Alltotalproducts = () => {
     <>
       <ToastContainer />
       <div className="hmbnnr3mproductother2alltotal">
-        {/* product name  */}
-        <span>{subname || ''}</span>
-        <h3>{productName || ''}</h3>
         <div>
           <div className="row">
             <div className="col-lg-6 col-sm-12">
-              <div className="sticky-container">
+              <div className="sticky-container">                
+              {/* product name  */}
+              <span>{subname || ''}</span>
+              <h3>{productName || ''}</h3>
                 <div id="hmbnnr1productdetailimg">
                   <img src={imgSrc} alt={productName} />
                 </div>

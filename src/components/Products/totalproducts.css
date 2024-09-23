@@ -12,10 +12,10 @@
     padding-top: 10%;
 }
 
-.hmbnnr3mproductother2alltotal span{
+.sticky-container span{
     color: #42A1DA;
     font-family: tommy;
-    font-size: 1vw;
+    font-size: 1.6vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -23,7 +23,7 @@
     margin-bottom: 3%;
 }
 
-.hmbnnr3mproductother2alltotal h3, .hmbnnr3mproductother2alltotal span {
+.sticky-container h3 {
     color: #42A1DA;
     font-family: tommy;
     font-size: 2vw;
@@ -31,7 +31,7 @@
     font-weight: 400;
     line-height: normal;
     text-transform: capitalize;
-    margin: 3% 0;
+    margin:0 0 3% 0;
 }
 
 .hmbnnr1productdetailtext h4 {
@@ -237,8 +237,8 @@
 
   .sticky-container {
     position: sticky;
-    top: 20px; /* Adjust this value as needed */
-    height:calc(60vh - 40px); /* Adjust based on your layout */
+    top: 25%;
+    height: calc(60vh - 0px); /* Adjust based on your layout */
     overflow: hidden;
   }
   
@@ -246,10 +246,6 @@
     height: calc(100vh - 40px); /* Adjust based on your layout */
     overflow-y: auto;
     padding-right: 20px; /* Add some padding for the scrollbar */
-  }
-  
-  .hmbnnr3mproductother2alltotal {
-    padding-top: 5%; /* Reduce top padding */
   }
   
   /* Custom scrollbar styles */
@@ -315,7 +311,7 @@
         display: block;
     }
 
-    .hmbnnr3mproductother2alltotal h3, .hmbnnr3mproductother2alltotal span {
+    .sticky-container h3, .sticky-container span {
         font-size: 9.0vw;
     }
 
