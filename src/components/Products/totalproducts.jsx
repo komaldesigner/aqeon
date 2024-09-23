@@ -269,7 +269,7 @@ const Alltotalproducts = () => {
                     <>
                       {ProLink.link.map((item, index) => (
                        
-                          <iframe width="560" height="315" src={item.Youtube} referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                        
+                          <iframe width="100%" height="315" src={item.Youtube} referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                        
                       ))}
                     </>
                 )}
