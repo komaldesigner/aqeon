@@ -284,6 +284,37 @@
     }
 }
 
+@media screen and (max-width: 1024px) {
+
+    .hmbnnr3mproductssectionother2 {
+        padding: 0;
+    }
+
+    .hmbnnrtxtproductother h4 span {
+        font-size: 3.9vw;
+    }
+
+    .hmbnnrtxtproductother h4 {
+        font-size: 3.9vw;
+    }
+    .hmbnnrtotalproductsrighttxt button {
+        font-size: 1.8vw;
+    }
+    .hmbnnr1productdetailtext ul li {
+        font-size: 1.9vw;
+    }
+    .hmbnnralltotalprodocytsec2tabledatdesgm table #tablehdingrow {
+        font-size: 2vw;
+    }
+    .hmbnnralltotalprodocytsec2tabledatdesgm table tr td {
+        font-size: 1.9vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
 @media screen and (max-width: 425px) {
     .hmbnnrtxtproductother h4 span {
         font-size: 3.4vw !important;
@@ -338,7 +369,7 @@
 }
 
 @media screen and (max-width: 575px){
-    .hmbnnr1productdetailtext ul li {
+    .hmbnnr1productdetailtext p, .hmbnnr1productdetailtext ul li {
         font-size: 3.5vw;
     }
     .hmbnnr1productdetailtext h4 {
@@ -357,33 +388,3 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
-
-    .hmbnnr3mproductssectionother2 {
-        padding: 0;
-    }
-
-    .hmbnnrtxtproductother h4 span {
-        font-size: 3.9vw;
-    }
-
-    .hmbnnrtxtproductother h4 {
-        font-size: 3.9vw;
-    }
-    .hmbnnrtotalproductsrighttxt button {
-        font-size: 1.8vw;
-    }
-    .hmbnnr1productdetailtext ul li {
-        font-size: 1.9vw;
-    }
-    .hmbnnralltotalprodocytsec2tabledatdesgm table #tablehdingrow {
-        font-size: 2vw;
-    }
-    .hmbnnralltotalprodocytsec2tabledatdesgm table tr td {
-        font-size: 1.9vw;
-    }
-}
-
-@media screen and (max-width: 768px) {
-
-}
