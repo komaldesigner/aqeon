@@ -275,6 +275,15 @@
     }
 }
 
+@media screen and (max-width: 991px) {
+    .sticky-container {
+        height: unset;
+        overflow: hidden;
+        position: sticky;
+        top: 0;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .hmbnnrtxtproductother h4 span {
         font-size: 3.4vw !important;
