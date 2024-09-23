@@ -232,15 +232,12 @@
     background-color: #00897b;
   }
 
-
-
-
-  .sticky-container {
+.sticky-container {
     position: sticky;
     top: 25%;
     height: calc(60vh - 0px); /* Adjust based on your layout */
     overflow: hidden;
-  }
+}
   
   .scroll-container {
     height: calc(100vh - 40px); /* Adjust based on your layout */
