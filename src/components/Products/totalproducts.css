@@ -12,15 +12,26 @@
     padding-top: 10%;
 }
 
-.hmbnnr3mproductother2alltotal h3 {
+.hmbnnr3mproductother2alltotal span{
     color: #42A1DA;
     font-family: tommy;
-    font-size: 2.5vw;
+    font-size: 1vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: capitalize;
     margin-bottom: 3%;
+}
+
+.hmbnnr3mproductother2alltotal h3 {
+    color: #42A1DA;
+    font-family: tommy;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 3% 0;
 }
 
 .hmbnnr1productdetailtext h4 {
@@ -82,15 +93,15 @@
     padding: 2% 5%;
 }
 
-.hmbnnr1productdetailimg{
+#hmbnnr1productdetailimg{
     width: 60%;
     background-color: #dbdbdb;    
-    margin: 13% auto;
+    margin:auto;
 }
 
-.hmbnnr1productdetailimg img{ 
+#hmbnnr1productdetailimg img{ 
     width: 100%;
-}
+} 
 
 
 .hmbnnralltotalprodocytsec2tabledatdesgm table tr td {
@@ -219,6 +230,44 @@
   
   .submit-btn:hover {
     background-color: #00897b;
+  }
+
+
+
+
+  .sticky-container {
+    position: sticky;
+    top: 20px; /* Adjust this value as needed */
+    height:calc(60vh - 40px); /* Adjust based on your layout */
+    overflow: hidden;
+  }
+  
+  .scroll-container {
+    height: calc(100vh - 40px); /* Adjust based on your layout */
+    overflow-y: auto;
+    padding-right: 20px; /* Add some padding for the scrollbar */
+  }
+  
+  .hmbnnr3mproductother2alltotal {
+    padding-top: 5%; /* Reduce top padding */
+  }
+  
+  /* Custom scrollbar styles */
+  .scroll-container::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .scroll-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
   }
 
 @media screen and (max-width: 1440px) {

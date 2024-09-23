@@ -38,6 +38,7 @@ import brands1 from '../assets/logo/logo1.svg'
 import brands2 from '../assets/logo/logo2.svg'
 import brands3 from '../assets/logo/logo3.svg'
 import brands4 from '../assets/logo/logo4.svg'
+import { YouTube } from '@mui/icons-material';
 
 export const productsData = [
     {
@@ -216,6 +217,16 @@ export const productsData = [
                                 { name: "Maximum Operating Temperature (Celsius)", value: "37.8°" },
                                 { name: "Pressure Range (Bar)", value: "1.7 - 6.9" }
                             ]
+                        },
+                        proMrpTable:{
+                            attrPrice:[
+                                { Proname: "3M IAS801F", Price: "25,290" }
+                            ]
+                        },
+                        ProLink:{
+                            link:[
+                                { Youtube:"https://www.youtube.com/embed/WCNsQLh-Sag?si=7ojxnWHzD8Kgnnvt"}
+                            ]
                         }
                     },
                     {
@@ -241,6 +252,16 @@ export const productsData = [
                                 { name: "Maximum Operating Temperature (Celsius)", value: "37.8°" },
                                 { name: "Pressure Range (Bar)", value: "1.7 - 6.9" },
                                 { name: "Replacement Interval ( Months)", value: "6 -12" }
+                            ]
+                        },
+                        proMrpTable:{
+                            attrPrice:[
+                                { Proname: "3M IAS802F", Price: " 30,290" }
+                            ]
+                        },
+                        ProLink:{
+                            link:[
+                                { Youtube:"https://www.youtube.com/embed/WCNsQLh-Sag?si=vTnxegdcVYQskmii"}
                             ]
                         }
                     },
@@ -276,7 +297,17 @@ export const productsData = [
                                 { name: "Pressure Range (Bar)", value: "1.7-6.9" },
                                 { name: "Replacement Interval (Months)", value: "6 -12" }
                             ]
-                        }                  
+                        },
+                        proMrpTable:{
+                            attrPrice:[
+                                { Proname: "3M IAS802C", Price: " 32,790" }
+                            ]
+                        },
+                        ProLink:{
+                            link:[
+                                { Youtube:"https://www.youtube.com/embed/WCNsQLh-Sag?si=0vwbKKIp3LZGikKe"}
+                            ]
+                        }               
                     },
                     {
                         id: 9,
@@ -315,7 +346,17 @@ export const productsData = [
                                 { name: "Pressure Range (Bar)", value: "1.7-6.9" },
                                 { name: "Replacement Interval (Months)", value: "6 -12" }
                             ]
-                        }
+                        },
+                        proMrpTable:{
+                            attrPrice:[
+                                { Proname: "3M IAS102T", Price: "32,790" }
+                            ]
+                        },
+                        ProLink:{
+                            link:[
+                                { Youtube:"https://www.youtube.com/embed/WCNsQLh-Sag?si=-j6KjikME59B7dtE"}
+                            ]
+                        }  
                                                
                     },
                     {
@@ -344,8 +385,19 @@ export const productsData = [
                                 { name: "Pressure Range (Bar)", value: "1.7-6.9" },
                                 { name: "Replacement Interval (Months)", value: "6-12" }
                             ]
-                        }                       
-                        
+                        },
+                        proMrpTable:{
+                            attrPrice:[
+                                { Proname: "3M IAS141T", Price: "22,390" }
+                            ]
+                        },
+                        ProLink:{
+                            link:[
+                                { Youtube:"https://www.youtube.com/embed/AZlMqmGfuQ4?si=spOVtDU8fYpqrToL"},
+                                { Youtube:"https://www.youtube.com/embed/fhhOFBWKvfA?si=2jxmuKKnGq4vFOLZ"},
+                                { Youtube:"https://www.youtube.com/embed/vnR-eGoCT9A?si=wG6JkktkWTo-0W7T"}
+                            ]
+                        } 
                     },
                     {
                         id: 11,
@@ -370,8 +422,18 @@ export const productsData = [
                                 { name: "Pressure Range (Bar)", value: "8.6" },
                                 { name: "Replacement Interval (Months)", value: "6-12" }
                             ]
-                        }                      
-                        
+                        },
+                        proMrpTable:{
+                            attrPrice:[
+                                { Proname: "3M IAS141T", Price: "13,290" }
+                            ]
+                        },
+                        ProLink:{
+                            link:[
+                                { Youtube:"https://www.youtube.com/embed/6SnAXDaleY4?si=Af6xZ33CdNeAQVa7"},
+                                { Youtube:"https://www.youtube.com/embed/vnR-eGoCT9A?si=pSul6eSLjszfBmz3"}
+                            ]
+                        }   
                     },
                     {
                         id: 12,
@@ -417,8 +479,17 @@ export const productsData = [
                                 { name: "Max Pressure (bar)", value: "8.7" },
                                 { name: "Reduction Claims", value: "Bacteria, Bacteriostatic, Chlorine Taste & Odor, Cyst, Particulate, Sediment" }
                             ]
-                        }                       
-                        
+                        },
+                        proMrpTable:{
+                            attrPrice:[
+                                { Proname: "3M IAS140S EcoSip", Price: "19,990" }
+                            ]
+                        },
+                        ProLink:{
+                            link:[
+                                { Youtube:"https://www.youtube.com/embed/6vVNPbNIk9I?si=2jA7o0h0DtkIMTBE"}
+                            ]
+                        } 
                     },
                     // {
                     //     id: 14,
@@ -428,7 +499,7 @@ export const productsData = [
                     {
                         id: 15,
                         imgSrc: prom15,
-                        productName: '3M IAS190S    Safe Kitchen',
+                        productName: '3M IAS190S Safe Kitchen',
                         overview : {
                             oviewDes: 'The 3M™ High Flow Series System for Cold Beverage Applications, Model IAS 190 provides consistent high-quality water by reducing particulate*, chlorine taste and odor, cyst**, and bacteria. Integrated Membrane Pre-Activated Carbon Technology (“I.M.P.A.C.T.”) filtration media combines a membrane with a premium activated carbon block to help provide excellent throughput and cartridge life. The Sanitary Quick Change (SQC) design allows for easy cartridge change-outs.',
                             oviwdespont: [
@@ -447,7 +518,17 @@ export const productsData = [
                                 { name: "Max Pressure (bar)", value: "8.7" },
                                 { name: "Reduction Claims", value: "Bacteria, Bacteriostatic, Chlorine Taste & Odor, Cyst, Particulate, Sediment" }
                             ]
-                        }                                                
+                        },
+                        proMrpTable:{
+                            attrPrice:[
+                                { Proname: "3M IAS190S Safe Kitchen", Price: "35,990" }
+                            ]
+                        },
+                        ProLink:{
+                            link:[
+                                { Youtube:"https://www.youtube.com/embed/6vVNPbNIk9I?si=PqgipsQMCtZYWOdR"}
+                            ]
+                        }                                               
                     },
                     {
                         id: 16,
@@ -483,7 +564,17 @@ export const productsData = [
                                 { name: "Water Inlet Pressure", value: "3.5-4 Bar" },
                                 { name: "Applicable Water Temperature", value: "5-38°" }
                             ]
-                        }                    
+                        },
+                        proMrpTable:{
+                            attrPrice:[
+                                { Proname: "3M RO Water Drinking System", Price: "38,490" }
+                            ]
+                        },
+                        ProLink:{
+                            link:[
+                                { Youtube:"https://www.youtube.com/embed/C39ibuf7qco?si=V1lK1B4XVokjMO7e"}
+                            ]
+                        }                     
                         
                         // Drinking System
                     }
@@ -519,7 +610,18 @@ export const productsData = [
                                 { name: "Pressure Range (Bar)", value: "1.5 to 8"},
                                 { name: "Weight (Kg)", value: "35"}
                             ]
-                        }                                                
+                        },
+                        proMrpTable:{
+                            attrPrice:[
+                                { Proname: "3M SFT200", Price: "156690" },
+                                { Proname: "SFT200Fe", Price: "183490" }
+                            ]
+                        },
+                        ProLink:{
+                            link:[
+                                { Youtube:"https://www.youtube.com/embed/0A6hNBgk6oE?si=39XYTkGE9Q7g6RJs"}
+                            ]
+                        }                                                 
                     },
                     {
                         id: 19,
@@ -548,7 +650,22 @@ export const productsData = [
                                 { name: "Flow Rate (in LPM)", value: "32"},
                                 { name: "Salt capacity (KG)", value: "100" }
                             ]
-                        }                                             
+                        },
+                        proMrpTable:{
+                            attrPrice:[
+                                { Proname: "IAWTS 28L", Price: "142590" },
+                                { Proname: "IAWTS 42L", Price: "165690" },
+                                { Proname: "IAWTS 57L", Price: "220490" },
+                                { Proname: "IAWTS 85L", Price: "289490" },
+                                { Proname: "IAWTS 57T", Price: "402490" },
+                                { Proname: "IAWTS 85T", Price: "596990" }
+                            ]
+                        },
+                        ProLink:{
+                            link:[
+                                { Youtube:"https://www.youtube.com/embed/0A6hNBgk6oE?si=E5ZCTR6t_NDc7U2P"}
+                            ]
+                        }                                              
                         // Water Softner
                     }
                 ]

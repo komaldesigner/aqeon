@@ -16,11 +16,15 @@ const ThreemProduct = () => {
 
         const productsWithSubCat = subCategory.products.map(product => ({
             ...product,
-            subname: subCat
+            subname: subCat,
+           // propricetable: proMrpTable
         }));
+        console.log('pro', productsWithSubCat);
 
         return productsWithSubCat;
     };
+
+   
 
     const utlitywaterproduct = filterProducts('Product3M', '3mUilitywater');
     const drinkingWater = filterProducts('Product3M', '3mDrinkingWater');

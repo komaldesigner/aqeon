@@ -30,14 +30,15 @@ const ThreemProduct = () => {
         // console.log("SubCategory:", subCategory);
 
         if (!subCategory) return [];
-        console.log(subCategory.products);
+     //   console.log(subCategory.products);
 
         const productsWithSubCat = subCategory.products.map(product => ({
             ...product,
             subname: subCat
+           // subname: subCat
         }));
 
-        console.log(productsWithSubCat);
+       // console.log(productsWithSubCat);
 
         return productsWithSubCat;
     };
