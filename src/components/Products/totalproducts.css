@@ -235,7 +235,7 @@
 .sticky-container {
     position: sticky;
     top: 25%;
-    height: calc(60vh - 0px); /* Adjust based on your layout */
+    height: calc(65vh - 0px); /* Adjust based on your layout */
     overflow: hidden;
 }
   
