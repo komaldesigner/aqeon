@@ -23,7 +23,7 @@
     margin-bottom: 3%;
 }
 
-.hmbnnr3mproductother2alltotal h3 {
+.hmbnnr3mproductother2alltotal h3, .hmbnnr3mproductother2alltotal span {
     color: #42A1DA;
     font-family: tommy;
     font-size: 2vw;
@@ -315,7 +315,7 @@
         display: block;
     }
 
-    .hmbnnr3mproductother2alltotal h3 {
+    .hmbnnr3mproductother2alltotal h3, .hmbnnr3mproductother2alltotal span {
         font-size: 9.0vw;
     }
 
