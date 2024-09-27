@@ -314,7 +314,7 @@ export const productsData = [
                         imgSrc: prom9,
                         productName: '3M IAS102T',
                         overview: {
-                            oviewDes: 'The large capacity IAS102T effectively improves your experience of using water by reducing the harmful effects of hard water and removing sediments. The system reduces sediments and other contaminants to provide cleaner, clearer water used throughout your house. This can be used for higher flow rates and larger houses. The 3MTM Aqua-PureTM IAS802C Whole House Filtration together with various cartridges filters all incoming water throughout the entire home with a special cartridge which is for chlorine removal. The heavy-duty head assembly of the unit helps provide unrestricted flow rates of up to 75 LPM to meet the needs of most residential single family homes.',
+                            oviewDes: 'The large capacity IAS102T effectively improves your experience of using water by reducing the harmful effects of hard water and removing sediments. The system reduces sediments and other contaminants to provide cleaner, clearer water used throughout your house. This can be used for higher flow rates and larger houses.',
                             oviwdespont: [
                                 'The IAS102T operates at a water pressure up to 862 kPa, flow rate up to 60 LPM and temperatures up to 37.8°C.',
                                 'Maintains efficiency and helps extend the life of water-using appliances',
@@ -550,9 +550,17 @@ export const productsData = [
                         imgSrc: prom17,
                         productName: '3M RO Water Drinking System',
                         overview : {
-                            oviewDes: '3M™ RO R8-CW protects your family’s health by removing residual chlorine and harmful heavy metals such as lead, arsenic, cadmium, chromium, and hexavalent chromium. It even removes VOCs such as carbon tetrachloride and chloroform!',
+                            oviewDes: "The 3M™ RO R8-CW is an advanced water filtration system that protects your family's health by effectively removing residual chlorine, heavy metals such as lead, arsenic, cadmium, and chromium, as well as VOCs like carbon tetra chloride and chloroform. This compact and efficient water purifier provides pure water instantly, while ensuring minimal wastage and maintaining the highest standards of water quality.",
                             oviwdespont: [
-                                // Add any additional points here if needed, or keep this array empty if not.
+                                "Mechanical filtration process - Reduces asbestos, lead, cysts, chlorine taste and odor, common water-borne bacteria*, algae, mold spores**, and sediment for cleaner, clearer, better-tasting water. *As tested with E.Coli ATCC (11229) [As tested by CUNO Incorporated. Not tested or certifiable by NSF International.] **As tested with Dekkera bruxellensis ATCC (64276) [As tested by CUNO Incorporated. Not tested or certifiable by NSF International.]",
+                                "Instant Filtration - Filters 1,500 L of water every day with large-flow capacity, providing pure water without waiting.",
+                                "Individual Filter Monitoring - Monitor each filter's status at all times and receive alerts with an alarm when a filter needs replacement.",
+                                "Low Water Wastage - Wastes less than 50% of the inlet water**, avoiding secondary contamination with zero stagnation.",
+                                "Compact Design - Ultra-thin, no-barrel design fits easily under the sink in your modular kitchen without compromising storage space.",
+                                "Quiet Operation - Unique design reduces pump noise and absorbs machine vibrations, making the system even quieter.",
+                                "Easy to Replace - Sanitary Quick Change (SQC) design allows for fast and easy change-outs of the cartridge without the need for a wrench or contact with the filter.",
+                                "NSF Standards 42 and 53 Certified - Tested and certified by one of the world’s most respected independent certification organizations that helps protect the world’s food, water, consumer products, and environment.",
+                                "Does Not Require Electricity - Operates without the need for electricity, ensuring consistent performance and water quality."
                             ]
                         },
                          proDetilTable: {
