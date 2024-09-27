@@ -77,8 +77,10 @@ const Alltotalproducts = () => {
 
   const { subname, imgSrc, productName, overview, proDetilTable,proMrpTable,ProLink } = products || {};
   console.log('mrp', products);
+  console.log('detailtable',proDetilTable)
   const { oviewDes, oviwdespont } = overview || {};
   //const {subCat} = subcategory || {};
+
 
 
 
@@ -219,13 +221,17 @@ const Alltotalproducts = () => {
                   <table>
                     <tr id="tablehdingrow">
                       <th id="tablehdingfstobly">Attribute Name</th>
-                      <th>Value</th>
+                      <th>Value</th> 
+                     {proDetilTable.attr[0].type?<th>Value2</th>: null}
+                      {proDetilTable.attr[0].type3?<th>Value3</th>: null}
                     </tr>
                     <>
                       {proDetilTable.attr.map((item, index) => (
                         <tr key={index}>
                           <td>{item.name}</td>
                           <td>{item.value}</td>
+                          {item.type ?<td>{item.type}</td> : null}
+                          {item.type3 ?<td>{item.type3}</td>: null}
                         </tr>
                       ))}
                     </>

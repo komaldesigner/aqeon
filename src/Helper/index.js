@@ -462,7 +462,7 @@ export const productsData = [
                         imgSrc: prom13,
                         productName: '3M IAS140S EcoSip',
                         overview : {
-                            oviewDes: 'The 3M™ High Flow Series System for Cold Beverage Applications, Model IAS 140 provides consistent high-quality water by reducing particulate*, chlorine taste and odor, cyst**, and bacteria. Integrated Membrane Pre-Activated Carbon Technology (“I.M.P.A.C.T.”) filtration media combines a membrane with a premium activated carbon block to help provide excellent throughput and cartridge life. The Sanitary Quick Change (SQC) design allows for easy cartridge change-outs.',
+                            oviewDes: 'The 3MTM High Flow Series System for Cold Beverage Applications, Model IAS 140 provides consistent high quality water by reducing particulate*, chlorine taste and odor, cyst**, and bacteria.Integrated Membrane Pre-Activated Carbon Technology (“I.M.P.A.C.T.”) filtration media combines a membrane with a premium activated carbon block to help provide excellent throughput and cartridge life. The Sanitary Quick Change (SQC) design allows for easy cartridge change-outs.',
                             oviwdespont: [
                                 // Add any additional points here if needed, or keep this array empty if not.
                             ]
@@ -588,7 +588,64 @@ export const productsData = [
                         imgSrc: prom18,
                         productName: '3M SFT200, SFT200Fe',
                         overview : {
-                            oviewDes: 'About the 3M™ Fully Automatic Water Softeners\nA Fully Automatic Household Water Softener to give soft water throughout your home. The product is a convenient solution for all your hard water problems.\n\nOne-of-a-kind fully automatic hard water to soft water converter, with automatic regeneration, 3M Water Softener is a minimal maintenance sleek product that gives you soft, quality water throughout your house, without any effort.\n\nThe system prevents scaling/hard water stains on your taps, faucets, and fixtures in your bathroom and kitchen ensuring that bathroom fittings look good as new for longer. The system also protects your water-using appliances like a geyser, washing machine, dishwasher, etc., from internal damage and corrosion, thus extending their life. Not only this, the soft water protects your hair and skin from the harmful effects of hard water.',
+                            oviewDes: `About the 3M™ Fully Automatic Water Softeners
+A Fully Automatic Household Water Softener to give soft water throughout your home. The product is a convenient solution for all your hard water problems.
+
+One-of-a-kind fully automatic hard water to soft water converter, with automatic regeneration, 3M Water Softener is a minimal maintenance sleek product that gives you soft, quality water throughout your house, without any effort.
+
+The system prevents scaling/hard water stains on your taps, faucets, and fixtures in your bathroom and kitchen ensuring that bathroom fittings look good as new for longer. The system also protects your water using appliances like a geyser, washing machine, dishwasher, etc. from internal damage and corrosion, thus extending their life. Not only this, the soft water protects your hair and skin from the harmful effects of hard water.
+
+3M™ Fully Automatic Water Softener is available in two series namely SFT & WTS. It uses Ion-exchange technlogy for softening and comes with a programmable multi-port valve avoiding any manual intervention for regeneration. Regeneration time can be set once and regenration happens automatically while you are asleep. The system automatically performs multiple regenerations till the salt is present in the system.
+
+Keeping fit with valentina. Fitness video lesson 8: knee exercises – prima bergamo equipoise steroid miss fitness multiniche tube
+“3M™ Fully Automatic Water Softener is an intelligent, low-maintenance softener which quietly softens your entire family’s water. The softeners have high capacity salt storage to minimize the frequency of salt refilling. 3M™ Fully Automatic Water Softeners use high efficiency food grade resin which has a higher life. An intelligent control valve with centralized controlling system provides operational ease & smooth user interface for checking the operating status.
+
+Ion Exchange Technology
+
+How it works for you
+
+The high efficiency softening resin, ensures that you have soft water throughout your house. The resin removes Calcium, Magnesium and Iron (specific to SFT-200Fe) by replacing them with Sodium ions, hence treating your water for hardness and iron problems
+
+Features & Benefits:
+1. Install and forget: With 3M Water softeners, all you need to do is plug it in! With the auto- regeneration feature, our water softeners bring to you maximum quality with minimum intervention
+2.Complete Control: 3M water softeners give you complete control with the NSF listed, globally tested, high-quality smart control valve
+3.Trouble free design: With effective space utilization and its unique arc barrel design, 3M Water Softeners are a perfect fit for the modern home
+4.Reliable resin: 3M Water softeners use high-efficiency and high-performance food grade resin
+SFT 200 Fe model comes with unique shallow shell technology resin which
+
+Reduces hardness by 90% even in high hardness up to 2000ppm.
+
+Technology
+
+Ion Exchange Technology
+
+How it works for you
+
+The high efficiency softening resin, ensures that you have soft water throughout your house. The resin removes Calcium, Magnesium and Iron (specific to SFT-200Fe) by replacing them with Sodium ions, hence treating your water for hardness and iron problems
+
+Removes iron in addition to Calcium & Magnesium ions and prevents resin fouling from heavy metals ( up to a maximum of 3ppm)
+
+Reduces salt consumed per regeneration by 20-50%
+
+Uses 40-80% less water compared to conventional systems.
+
+The SFT series comes with a designer look with a sleek state of the art compact single tank design. It is made available in two models
+
+SFT-200: Uses Ion Exchange Technology to remove Calcium & Magnesium ions making your water soft & supple.
+
+SFT-200Fe : Uses unique Shallow Shell Technology resin to remove Calcium, Magnesium & Iron ions from your water using Ion Exchange Technology.
+
+Convenient Operation
+Includes Sliding Cover for convenient operation and maintenance
+
+Intelligent Control Valve
+High-performance intelligent control valve. NSF identification with structural strength, dual mode with time and flow and free maintenance.
+
+Resin tank
+NSF identification with structural strength and bigger volume for resin storage.
+
+NSF & WQA Standards
+As per NSF and WQA standards.”`,
                             oviwdespont: [
                                 '3M™ Fully Automatic Water Softener is available in two series namely SFT & WTS. It uses Ion-exchange technology for softening and comes with a programmable multi-port valve avoiding any manual intervention for regeneration. Regeneration time can be set once and regeneration happens automatically while you are asleep. The system automatically performs multiple regenerations till the salt is present in the system.',
                                 '3M™ Fully Automatic Water Softener is an intelligent, low-maintenance softener that quietly softens your entire family\'s water. The softeners have high capacity salt storage to minimize the frequency of salt refilling.',
@@ -600,15 +657,16 @@ export const productsData = [
                         },
                         proDetilTable : {
                             attr: [
-                                { name: "Application", value: "Softening of water with hardness AND no iron content"},
-                                { name: "Resin in Litres", value: "28" },
-                                { name: "Dimensions W X D X H (inches)", value: "19 X 19 X 44.2"},
-                                { name: "Flow Rate (LPM)", value: "48" },
-                                { name: "Inlet Outlet Size (NPT)", value: "3/4 inch" },
-                                { name: "Salt capacity", value: "60" },
-                                { name: "Maximum Operating Temperature (Celsius)", value: "37.8°C" },
-                                { name: "Pressure Range (Bar)", value: "1.5 to 8"},
-                                { name: "Weight (Kg)", value: "35"}
+                                { name: "Model", value: "3M SFT200" , type:"SFT200Fe" },
+                                { name: "Application", value: "Softening of water with hardness AND no iron content" , type:"Softening of water with high iron content (up to 3 ppm) AND high hardness ( up to 2000ppm)"},
+                                { name: "Resin in Litres", value: "28" , type: "28" },
+                                { name: "Dimensions W X D X H (inches)", value: "19 X 19 X 44.2", type: "19 X 19 X 44.2"},
+                                { name: "Flow Rate (LPM)", value: "48", type: "48" },
+                                { name: "Inlet Outlet Size (NPT)", value: "3/4 inch", type: "3/4 inch" },
+                                { name: "Salt capacity", value: "60" , type: "60" },
+                                { name: "Maximum Operating Temperature (Celsius)", value: "37.8°C", type: "37.8°C" },
+                                { name: "Pressure Range (Bar)", value: "1.5 to 8" , value: "1.5 to 8"},
+                                { name: "Weight (Kg)", value: "35" , value: "60"}
                             ]
                         },
                         proMrpTable:{
@@ -640,15 +698,15 @@ export const productsData = [
                         },
                         proDetilTable : {
                             attr: [
-                                { name: "Model", value: "WTF 28" },
-                                { name: "Dimensions mineral Tank (in cm)", value: "21*112"},
-                                { name: "Dimensions Brine Tank (in cm)", value: "38*38*87" },
-                                { name: "Temp Range (in Celsius)", value: "4.4 – 37.8" },
-                                { name: "Pipe Size", value: "1” NPT"},
-                                { name: "Electrical Requirements (in Volts)", value: "110 / 120" },
-                                { name: "Pressure Range (in Bar)", value: "1.7 to 8.6"},
-                                { name: "Flow Rate (in LPM)", value: "32"},
-                                { name: "Salt capacity (KG)", value: "100" }
+                                { name: "Model", value: "WTF 28", type: "WTF 42" , type3: "WTF 57"},
+                                { name: "Dimensions mineral Tank (in cm)", value: "21*112", type: "26*112" , type3: "26*137"},
+                                { name: "Dimensions Brine Tank (in cm)", value: "38*38*87", type: "38*38*87", type3: "38*38*87"},
+                                { name: "Temp Range (in Celsius)", value: "4.4 – 37.8", type: "4.4 – 37.8", type3: "4.4 – 37.8" },
+                                { name: "Pipe Size", value: "1” NPT", type: "1” NPT", type3: "1” NPT"},
+                                { name: "Electrical Requirements (in Volts)", value: "110 / 120", type: "110 / 120", type3: "110 / 120" },
+                                { name: "Pressure Range (in Bar)", value: "1.7 to 8.6", type: "1.7 to 8.6", type3: "1.7 to 8.6"},
+                                { name: "Flow Rate (in LPM)", value: "32", type: "42", type: "56"},
+                                { name: "Salt capacity (KG)", value: "100", type: "100" , type3: "100" }
                             ]
                         },
                         proMrpTable:{
