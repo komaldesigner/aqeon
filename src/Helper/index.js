@@ -50,6 +50,7 @@ export const productsData = [
                     {
                         id: 1,
                         imgSrc: pro1,
+                        subname: `3M Water Softner`,
                         productName: '3M™ FULLY AUTOMATIC WATER SOFTNER',
                         overview: {
                             oviewDes: [`About the 3M™ Fully Automatic Water Softeners`,
@@ -113,6 +114,7 @@ export const productsData = [
                     {
                         id: 2,
                         imgSrc: pro2,
+                        subname: `Drinking System`,
                         productName: 'DWS2000T',
                         overview: {
                             oviewDes: ['A unique drinking water system that uses advanced Integrated Membrane Pre-Activated Carbon Technology (“I.M.P.A.C.T.”) technology to provide 99.99% germ free water, without wasting water or using electricity.'],
@@ -128,6 +130,7 @@ export const productsData = [
                     {
                         id: 3,
                         imgSrc: pro3,
+                        subname: `Drinking System`,
                         productName: 'IAS140S',
                         overview: {
                             oviewDes: ['The 3MTM High Flow Series System for Cold Beverage Applications, Model IAS 140 provides consistent high quality water by reducing particulate*, chlorine taste and odor, cyst**, and bacteria.Integrated Membrane Pre-Activated Carbon Technology (“I.M.P.A.C.T.”) filtration media combines a membrane with a premium activated carbon block to help provide excellent throughput and cartridge life. The Sanitary Quick Change (SQC) design allows for easy cartridge change-outs.'],
@@ -162,6 +165,7 @@ export const productsData = [
                     {
                         id: 4,
                         imgSrc: pro4,
+                        subname: `3M Utility Water Filtration`,
                         productName: 'IAS102T',
                         overview: {
                             oviewDes: ['The large capacity IAS102T effectively improves your experience of using water by reducing the harmful effects of hard water and removing sediments. The system reduces sediments and other contaminants to provide cleaner, clearer water used throughout your house. This can be used for higher flow rates and larger houses.'],
@@ -211,6 +215,7 @@ export const productsData = [
                     {
                         id: 5,
                         imgSrc: pro5,
+                        subname: `3M Utility Water Filtration`,
                         productName: 'IAS190S',
                         overview: {
                             oviewDes: ['The 3M™ High Flow Series System for Cold Beverage Applications, Model IAS 190 provides consistent high-quality water by reducing particulate*, chlorine taste and odor, cyst**, and bacteria. Integrated Membrane Pre-Activated Carbon Technology (“I.M.P.A.C.T.”) filtration media combines a membrane with a premium activated carbon block to help provide excellent throughput and cartridge life. The Sanitary Quick Change (SQC) design allows for easy cartridge change-outs.'],
