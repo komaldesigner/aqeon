@@ -50,7 +50,7 @@ export const productsData = [
                     {
                         id: 1,
                         imgSrc: pro1,
-                        productName: 'WATER SOFTNER',
+                        productName: '3M™ FULLY AUTOMATIC WATER SOFTNER',
                         overview: {
                             oviewDes: [`About the 3M™ Fully Automatic Water Softeners`,
                                 `A Fully Automatic Household Water Softener to give soft water throughout your home. The product is a convenient solution for all your hard water problems.`,
