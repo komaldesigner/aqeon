@@ -140,10 +140,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
-    position: relative;
+    width: 100%;
+    position: fixed;
     z-index: 2;
     padding: 1% 5%;
+    background-color: #fff;
   }
 
   .burgerIcon {
