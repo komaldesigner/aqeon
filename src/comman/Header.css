@@ -6,9 +6,15 @@
 /* src/Header.css */
 .header {
   position: relative;
-  /* width: 90%; */
   margin: auto;
+  transition: position 0.3s ease-in-out;
 
+
+}
+
+.hdrdesktop, .hdrboth, .header ,.header .fixed{
+  overflow: hidden;
+  background-color: #fff;
 }
 
 
@@ -17,7 +23,6 @@
   display: flex;
   align-items: center;
   width: 100%;
-  position: fixed;
   z-index: 2;
   /* background-color: #efe6e640; */
   padding: 2% 5%;
@@ -93,6 +98,14 @@
   text-transform: uppercase;
 }
 
+.header.fixed {
+  position: fixed; /* Makes it fixed on scroll */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Ensure it stays on top */
+}
+
 .hdrmobile {
   display: none;
 }
@@ -116,7 +129,6 @@
 @media screen and (max-width: 1440px){
   .hdrdesktop {
     width: 100%;
-    position: fixed;
     z-index: 2;
     background-color: #efe6e640;
     padding: 2% 5%;
@@ -140,11 +152,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    position: fixed;
+    width: 90%;
+    position: relative;
     z-index: 2;
     padding: 1% 5%;
-    background-color: #fff;
   }
 
   .burgerIcon {

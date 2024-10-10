@@ -1,5 +1,5 @@
 // src/Header.js
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { Link, useNavigate } from 'react-router-dom';
 import {
@@ -141,6 +141,28 @@ const ItemLink = styled.a`
 `;
 
 const Header = () => {
+
+  const [isFixed, setIsFixed] = useState(false);
+
+  const handleScroll = () => {
+    if (window.scrollY > 100) { // Change 100 to the scroll threshold you need
+      setIsFixed(true);
+    } else {
+      setIsFixed(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+
+
+
+
   const navigate = useNavigate();
   const [click, setClick] = useState(false);
   const [anchorEl, setAnchorEl] = useState(null);
@@ -173,7 +195,7 @@ const Header = () => {
   };
 
   return (
-    <header className="header">
+    <header className={`header ${isFixed ? 'fixed' : ''}`}>
       <div id="hdrboth">
         <div className="hdrdesktop">
           <div className="logo"><img src={logo} alt="Logo" /></div>

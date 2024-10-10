@@ -315,7 +315,24 @@
 
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 575px){
+    .hmbnnr1productdetailtext p, .hmbnnr1productdetailtext ul li {
+        font-size: 3.5vw;
+    }
+    .hmbnnr1productdetailtext h4 {
+        width: 25%;
+    }
+    .hmbnnrtotalproductsrighttxt button {
+        font-size: 3.2vw;
+    }
+    .hmbnnralltotalprodocytsec2tabledatdesgm table {
+        border: 1px solid #000;
+        width: 80%;
+        margin: auto;
+    }
+    .hmbnnralltotalprodocytsec2tabledatdesgm table #tablehdingrow , .hmbnnralltotalprodocytsec2tabledatdesgm table tr td{
+        font-size: 3.2vw;
+    }
     .hmbnnrtxtproductother h4 span {
         font-size: 3.4vw !important;
         letter-spacing: 0.36px;
@@ -365,26 +382,6 @@
 
     .hmbnnr3mproductssection2 {
         width: 85%;
-    }
-}
-
-@media screen and (max-width: 575px){
-    .hmbnnr1productdetailtext p, .hmbnnr1productdetailtext ul li {
-        font-size: 3.5vw;
-    }
-    .hmbnnr1productdetailtext h4 {
-        width: 25%;
-    }
-    .hmbnnrtotalproductsrighttxt button {
-        font-size: 3.2vw;
-    }
-    .hmbnnralltotalprodocytsec2tabledatdesgm table {
-        border: 1px solid #000;
-        width: 80%;
-        margin: auto;
-    }
-    .hmbnnralltotalprodocytsec2tabledatdesgm table #tablehdingrow , .hmbnnralltotalprodocytsec2tabledatdesgm table tr td{
-        font-size: 3.2vw;
     }
 }
 

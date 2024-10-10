@@ -120,12 +120,12 @@
     text-transform: capitalize;
 }
 
-.hmbnnr3mproductssection2 {
+/* .hmbnnr3mproductssection2 {
     display: flex;
     width: 100%;
     margin: auto;
     align-items: center;
-}
+} */
 
 @media screen and (max-width: 1440px){
     .hmbnnrtxtproductother{
@@ -137,7 +137,7 @@
     }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 575px){
     .hmbnnrtxtproductother h4 span {
         font-size: 3.4vw !important;
         letter-spacing: 0.36px;
