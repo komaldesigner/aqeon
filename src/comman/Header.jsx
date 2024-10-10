@@ -269,7 +269,7 @@ const Header = () => {
                       )}
                     </ItemLink>
                     <Collapse in={isOpen} timeout="auto" unmountOnExit>
-                      <ListButton component="div" disablePadding>
+                      <ListButton component="div"  disablePadding  onClick={handleClick}>
                         {navItem.menuItems.map((menuItem, menuIndex) => (
                           <ListItem
                             button
