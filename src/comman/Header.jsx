@@ -206,9 +206,9 @@ const Header = () => {
                   <>
                     <span
                       onClick={handleMenuClick}
-                      aria-controls={open ? 'dropdown-menu' : 'undefined'}
+                      aria-controls={open ? 'true' : 'undefined'}
                       aria-haspopup="true"
-                      aria-expanded={open ? 'true' : 'undefined'}
+                      aria-expanded={open ? 'dropdown-menu' : 'undefined'}
                       className="active"
                       style={{ cursor: 'pointer' }}
                     >
@@ -263,9 +263,9 @@ const Header = () => {
                     <ItemLink onClick={handleDropDown}>
                       {navItem.label}
                       {isOpen ? (
-                        <ExpandLessIcon sx={{ fontSize: '50px !important' }} />
+                       <ExpandMoreIcon sx={{ fontSize: '50px !important' }} />
                       ) : (
-                        <ExpandMoreIcon sx={{ fontSize: '50px !important' }} />
+                        <ExpandLessIcon sx={{ fontSize: '50px !important' }} />
                       )}
                     </ItemLink>
                     <Collapse in={isOpen} timeout="auto" unmountOnExit>
