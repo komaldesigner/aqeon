@@ -14,7 +14,8 @@
 
 .sticky-container span{
     color: #42A1DA;
-    font-family: tommy;
+    /* font-family: tommy; */
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.6vw;
     font-style: normal;
     font-weight: 400;
@@ -25,7 +26,8 @@
 
 .sticky-container h3 {
     color: #42A1DA;
-    font-family: tommy;
+    /* font-family: tommy; */
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 2vw;
     font-style: normal;
     font-weight: 400;
@@ -149,8 +151,9 @@
 
 .hmbnnr3mproducttglinetxtother span {
     color: #42A1DA;
-    font-family: "Linden Hill", serif;
-    font-size: 1.7vw;
+    /* font-family: "Linden Hill", serif; */
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

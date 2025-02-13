@@ -9,10 +9,11 @@
 
 .fttrsec1 h3 {
     color: #FFF;
-    font-family: "Lilita One", sans-serif;
+    /* font-family: "Lilita One", sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 2.604vw;
+    font-size: 2.5vw;
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.64px;
@@ -21,14 +22,15 @@
 
 .fttrsec1 p {
     color: #FFF;
-    font-family: "Linden Hill", serif;
+    /* font-family: "Linden Hill", serif; */
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.875vw;
+    font-size: 1.5vw;
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.36px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 
 }
 
@@ -51,10 +53,11 @@
 .fttrsec2prt2lftsde p,
 .fttrsec2prt2rgtsde h3 {
     color: #FFF;
-    font-family: "Lilita One", sans-serif;
+    /* font-family: "Lilita One", sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.563vw;
+    font-size: 1.5vw;
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.36px;
@@ -69,10 +72,11 @@
 .fttrlink1 a {
     text-decoration: none;
     color: #FFF;
-    font-family: "Linden Hill", serif;
+    /* font-family: "Linden Hill", serif; */
+
     font-weight: 400;
     font-style: normal;
-    font-size: 1.563vw;
+    font-size: 1.5vw;
     line-height: normal;
     letter-spacing: -0.36px;
     text-transform: capitalize;
@@ -103,7 +107,8 @@
 
 .fttrcpyrgt, .compnylink{
     font-size: 1.302vw;
-    font-family: "Linden Hill", serif;
+    /* font-family: "Linden Hill", serif; */
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-weight: 400;

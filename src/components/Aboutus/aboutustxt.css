@@ -4,19 +4,21 @@
 }
 .hmbnnraboutustxtinnrpage{
     color: #42A1DA;
-    font-family: "Linden Hill", serif;
-    font-size: 2vw;
+    /* font-family: "Linden Hill", serif; */
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.4px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     margin-bottom: 5%;
 }
 .hmbnnraboutustxtinnrpage span{
     color: #000;
-    font-family: "Linden Hill", serif;
-    font-size: 2vw;
+    /* font-family: "Linden Hill", serif; */
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -26,8 +28,9 @@
 
 .hmbnnraboutustxtinnrpage2 h3{
     color: #000;
-    font-family: "Linden Hill", serif;
-    font-size: 1.6vw;
+    /* font-family: "Linden Hill", serif; */
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -35,8 +38,9 @@
 }
 .hmbnnraboutustxtinnrpage2 p{
     color: #42A1DA;
-    font-family: "Linden Hill", serif;
-    font-size: 2vw;
+    /* font-family: "Linden Hill", serif; */
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -46,13 +50,14 @@
 }
 .hmbnnrabout1 h4{
     color: #42A1DA;
-    font-family: "Linden Hill", serif;
-    font-size: 2vw;
+    /* font-family: "Linden Hill", serif; */
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.4px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 
 @media screen and (max-width: 575px) {

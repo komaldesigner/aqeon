@@ -10,7 +10,8 @@
 
 .hmbnnr3mproductother2 h3 {
     color: #42A1DA;
-    font-family: "Lilita One", sans-serif;
+    /* font-family: "Lilita One", sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 4.6vw;
     font-style: normal;
     font-weight: 400;
@@ -29,7 +30,8 @@
     text-transform: capitalize;
     margin-top: 5%;
     margin-bottom: 3%;
-    font-family: Kumbh Sans;
+    /* font-family: Kumbh Sans; */
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
 }
 
@@ -49,7 +51,8 @@
     text-transform: capitalize;
     margin-top: 5%;
     margin-bottom: 3%;
-    font-family: Kumbh Sans;
+    /* font-family: Kumbh Sans; */
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     margin-right: 10%;
 }
@@ -80,7 +83,8 @@
 
 .hmbnnr3mproductsectionotrrowother p {
     color: #000;
-    font-family: "Kumbh Sans", sans-serif;
+    /* font-family: "Kumbh Sans", sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 1vw;
     font-style: normal;
     font-weight: 400;
@@ -95,8 +99,9 @@
     margin: 10% auto;
     color: #000;
     text-align: center;
-    font-family: "Linden Hill", serif;
-    font-size: 1.7vw;
+    /* font-family: "Linden Hill", serif; */
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -111,8 +116,9 @@
 
 .hmbnnr3mproducttglinetxtother span {
     color: #42A1DA;
-    font-family: "Linden Hill", serif;
-    font-size: 1.7vw;
+    /* font-family: "Linden Hill", serif; */
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

@@ -53,7 +53,7 @@ const Testimonial = () => {
                 </div>
             </div>
             <div className="lastsection" >
-                <p>At Aqeon Enterprises, we are committed to providing exceptional water softening solutions to meet all your needs. Contact us today to learn more about our products and how we can help you achieve the best water quality possible.</p>
+                <p>At aqeon enterprises, we are committed to providing exceptional water softening solutions to meet all your needs. Contact us today to learn more about our products and how we can help you achieve the best water quality possible.</p>
             </div>
         </>
     )

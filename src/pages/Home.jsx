@@ -12,9 +12,9 @@ const Home = () => {
     <>
       <Banner
         index={'home'}
-        startText={'Experience superior water quality with'}
+        startText={'Experience superior water quality with'}       
         centerText={'Aqeon Enterprises.'}
-        endText={'Our advanced water softening systems are perfect for your home, business, or industrial needs.'}
+        endText={'Our advanced water softening systems are perfect for your home, business, or \n industrial needs.'}
         isvalue={true}
         isanothervalue={true}
       />

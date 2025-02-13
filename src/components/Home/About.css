@@ -24,25 +24,27 @@
 
 .about-us-title {
   color: #42A1DA;
-  font-family: "Lilita One", sans-serif;
+  /* font-family: "Lilita One", sans-serif; */
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 5vw;
+  font-size: 3vw;
   line-height: normal;
   letter-spacing: -0.96px;
   text-transform: uppercase;
+  text-align: center;
   width: 30%;
 }
 
 .about-us-text {
   color: #000;
-  font-family: "Linden Hill", serif;
+  /* font-family: "Linden Hill", serif; */
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: calc(1vw + 1vh);
+  font-size: calc(0.8vw + 0.9vh);
   line-height: normal;
   letter-spacing: -0.32px;
-  text-transform: capitalize;
   text-align: justify;
   width: 70%;
 }
@@ -68,16 +70,18 @@
   font-size: calc(0.8vw + 0.9vh);
   color: #42A1DA;
   text-align: center;
-  font-family: "Linden Hill", serif;
+  /* font-family: "Linden Hill", serif; */
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .about-us-footer {
-  font-size: calc(1vw + 0.9vh);
+  font-size: calc(0.8vw + 0.9vh);
   color: #000;
   text-align: justify;
-  font-family: "Linden Hill", serif;
+  /* font-family: "Linden Hill", serif; */
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
   font-style: normal;
   width: 80%;

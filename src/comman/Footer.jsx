@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="footer">
                 <div className="fttrsec1">
                     <h3 data-aos="fade-right">Get Started Today!</h3>
-                    <p  data-aos="flip-up">Ready to improve your water quality? Contact Aqeon Enterprises today to schedule a free consultation and discover the best water softening solution for you.</p>
+                    <p  data-aos="flip-up">Ready to improve your water quality? Contact aqeon enterprises today to schedule a free consultation and discover the best water softening solution for you.</p>
                 </div>
                 <div className="fttrsec2">
                     <div className="fttcontact"><span>Phone: +91 9815183032</span></div>

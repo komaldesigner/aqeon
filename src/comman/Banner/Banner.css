@@ -10,11 +10,12 @@
     top: 23%;
     margin: 0 6%;
     color: #42A1DA;
-    font-size: 4vw;
+    font-size: 2.5vw;
     text-transform: uppercase;
     width: 75%;
     z-index: 1;
-    font-family: "Lilita One", sans-serif;
+    /* font-family: "Lilita One", sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     font-style: normal;
 
@@ -22,17 +23,19 @@
 
 .overlay-text h4 {
     color: #42A1DA;
-    font-size: 4vw;
+    font-size: 2.5vw;
     text-transform: uppercase;
     z-index: 1;
-    font-family: "Lilita One", sans-serif;
+    /* font-family: "Lilita One", sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
 .overlay-text span {
     color: #FFF;
-    font-family: "Lilita One", sans-serif;
+    /* font-family: "Lilita One", sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     font-style: normal;
     letter-spacing: -0.4px;
@@ -49,7 +52,8 @@
     line-height: normal;
     letter-spacing: -0.48px;
     text-transform: capitalize;
-    font-family: "Lilita One", sans-serif;
+    /* font-family: "Lilita One", sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     font-style: normal;
     margin: 20% 45% 0 5%;
@@ -57,14 +61,16 @@
 
 .contact-text span {
     color: #000;
-    font-family: "Lilita One", sans-serif;
+    /* font-family: "Lilita One", sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
 .contact-text h4 {
     text-transform: capitalize;
-    font-family: "Lilita One", sans-serif;
+    /* font-family: "Lilita One", sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
     color: #FFF;
     font-size: 2.5vw;
 }
@@ -93,7 +99,8 @@
 
 .hmbnnrproduct .hmbnnrtxtproduct {
     color: #000;
-    font-family: "Lilita One", sans-serif;
+    /* font-family: "Lilita One", sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 7.8vw;
     font-style: normal;
     font-weight: 400;
@@ -106,7 +113,8 @@
 .hmbnnrproduct .hmbnnrtxtproduct span,
 .hmbnnrproduct .hmbnnrtxtproduct span p {
     color: #000;
-    font-family: "Lilita One", sans-serif;
+    /* font-family: "Lilita One", sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 4.6vw;
     font-style: normal;
     font-weight: 400;
@@ -118,7 +126,8 @@
 
 .hmbnnrproduct .hmbnnrtxtproduct h4 {
     color: #FFF;
-    font-family: "Lilita One", sans-serif;
+    /* font-family: "Lilita One", sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 4.6vw;
     font-style: normal;
     font-weight: 400;
@@ -133,7 +142,8 @@
 
 .hmbnnrtxtproductother {
     color: #000;
-    font-family: "Lilita One", sans-serif;
+    /* font-family: "Lilita One", sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 6.67vw;
     font-style: normal;
     font-weight: 400;
@@ -145,7 +155,8 @@
 
 .hmbnnrtxtproductother h4 {
     color: #000;
-    font-family: "Lilita One", sans-serif;
+    /* font-family: "Lilita One", sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 3.333vw;
     font-style: normal;
     font-weight: 400;
@@ -156,7 +167,8 @@
 
 .hmbnnrtxtproductother h4 span {
     color: #FFF;
-    font-family: "Lilita One", sans-serif;
+    /* font-family: "Lilita One", sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 3.333vw;
     font-style: normal;
     font-weight: 400;

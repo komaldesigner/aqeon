@@ -5,7 +5,8 @@
 
 .hmbnnrcnctfrmdttl h3 {
     color: #42A1DA;
-    font-family: "Linden Hill", serif;
+    /* font-family: "Linden Hill", serif; */
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 2.083vw;
@@ -17,7 +18,8 @@
 
 .hmbnnrcnctfrmdttl p {
     color: #000;
-    font-family: "Libre Caslon Text", serif;
+    /* font-family: "Libre Caslon Text", serif; */
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size:calc(0.9vw + 0.8vh);
@@ -38,7 +40,8 @@
     color: #000;
     text-align: center;
     font-size: 1.667vw;
-    font-family: "Linden Hill", serif;
+    /* font-family: "Linden Hill", serif; */
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-weight: 400;
@@ -57,7 +60,8 @@
     border-radius: 50px;
     background: #000;
     color: #FFF;
-    font-family: "Linden Hill", serif;
+    /* font-family: "Linden Hill", serif; */
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1.042vw;

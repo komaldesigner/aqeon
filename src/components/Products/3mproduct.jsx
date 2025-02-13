@@ -92,7 +92,7 @@ const ThreemProduct = () => {
 
             <>
                 <div className="hmbnnr3mproducttglinetxt">
-                    Upgrade your water quality today with Aqeon Enterprises. Our innovative water softening systems ensure optimal performance, reliability, and efficiency for every application. Trust our expertise and commitment to excellence to provide you with the best water softening solutions tailored to your specific needs. Experience <span>The Aqeon </span> difference – because better water starts here.
+                Upgrade your water quality today with aqeon enterprises. Our innovative water softening systems ensure optimal performance, reliability, and efficiency for every application. Trust our expertise and commitment to excellence to provide you with the best water softening solutions tailored to your specific needs. Experience the aqeon difference – because better water starts here.
                 </div>
             </>
 
